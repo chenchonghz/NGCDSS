@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SuggestionDetails>
+	<Cereal Name="小麦粉" Weight="25"/>
+	<Cereal Name="麸皮" Weight="40"/>
+	<Cereal Name="挂面" Weight="25"/>
+	<Cereal Name="面条[切面]" Weight="30"/>
+	<Cereal Name="面条[干切面]" Weight="25"/>
+	<Cereal Name="通心面[通心粉]" Weight="25"/>
+	<Cereal Name="花卷" Weight="45"/>
+	<Cereal Name="烙饼" Weight="35"/>
+	<Cereal Name="馒头" Weight="40"/>
+	<Cereal Name="油饼" Weight="25"/>
+	<Cereal Name="油条" Weight="25"/>
+	<Cereal Name="水面筋" Weight="65"/>
+	<Cereal Name="油面筋" Weight="20"/>
+	<Cereal Name="大米" Weight="25"/>
+	<Cereal Name="黑米" Weight="25"/>
+	<Cereal Name="香大米" Weight="25"/>
+	<Cereal Name="玉米碴" Weight="26"/>
+	<Cereal Name="大麦" Weight="30"/>
+	<Cereal Name="青稞" Weight="25"/>
+	<Cereal Name="小米" Weight="25"/>
+	<Cereal Name="高粱米" Weight="25"/>
+	<Cereal Name="苦荞麦粉" Weight="30"/>
+	<Cereal Name="莜麦面" Weight="25"/>
+	<Cereal Name="薏米" Weight="25"/>
+	<Cereal Name="土豆" Weight="120"/>
+	<Cereal Name="红薯" Weight="90"/>
+	<Cereal Name="藕粉" Weight="25"/>
+	<Cereal Name="粉丝、粉条" Weight="25"/>
+	<Cereal Name="灌肠" Weight="65"/>
+	<Cereal Name="煎饼" Weight="25"/>
+	<Cereal Name="年糕" Weight="60"/>
+	<Cereal Name="蛋糕" Weight="25"/>
+	<Cereal Name="糯米" Weight="25"/>
+	<Cereal Name="紫米" Weight="25"/>
+	<Cereal Name="蒸米饭" Weight="80"/>
+	<Cereal Name="鲜玉米" Weight="85"/>
+	<Cereal Name="干玉米" Weight="25"/>
+	<Cereal Name="玉米面" Weight="25"/>
+	<Cereal Name="麦片" Weight="25"/>
+	<Cereal Name="燕麦片" Weight="25"/>
+	<Cereal Name="咸面包" Weight="35"/>
+	<Cereal Name="饼干" Weight="20"/>
+	<Cereal Name="栗子" Weight="25"/>
+	<Cereal Name="莲子" Weight="25"/>
+	<Greenstuff Name="大白菜" Weight="550"/>
+	<Greenstuff Name="小白菜" Weight="600"/>
+	<Greenstuff Name="菜心" Weight="350"/>
+	<Greenstuff Name="紫菜苔" Weight="255"/>
+	<Greenstuff Name="油菜" Weight="400"/>
+	<Greenstuff Name="胡萝卜" Weight="250"/>
+	<Greenstuff Name="冬瓜" Weight="825"/>
+	<Greenstuff Name="佛手瓜" Weight="550"/>
+	<Greenstuff Name="瓠瓜" Weight="600"/>
+	<Greenstuff Name="黄瓜" Weight="600"/>
+	<Greenstuff Name="圆白菜" Weight="400"/>
+	<Greenstuff Name="菜花" Weight="375"/>
+	<Greenstuff Name="西兰花" Weight="275"/>
+	<Greenstuff Name="盖菜" Weight="650"/>
+	<Greenstuff Name="芥蓝" Weight="475"/>
+	<Greenstuff Name="苦瓜" Weight="475"/>
+	<Greenstuff Name="南瓜" Weight="400"/>
+	<Greenstuff Name="丝瓜" Weight="450"/>
+	<Greenstuff Name="西葫芦" Weight="500"/>
+	<Greenstuff Name="茄子" Weight="425"/>
+	<Greenstuff Name="菠菜" Weight="375"/>
+	<Greenstuff Name="木耳菜" Weight="450"/>
+	<Greenstuff Name="芹菜茎" Weight="450"/>
+	<Greenstuff Name="芹菜叶" Weight="300"/>
+	<Greenstuff Name="油麦菜" Weight="600"/>
+	<Greenstuff Name="西红柿" Weight="475"/>
+	<Greenstuff Name="柿子椒" Weight="400"/>
+	<Greenstuff Name="扁豆" Weight="250"/>
+	<Greenstuff Name="蚕豆" Weight="100"/>
+	<Greenstuff Name="刀豆" Weight="250"/>
+	<Greenstuff Name="生菜" Weight="700"/>
+	<Greenstuff Name="绿觅菜" Weight="350"/>
+	<Greenstuff Name="紫觅菜" Weight="300"/>
+	<Greenstuff Name="苘蒿" Weight="425"/>
+	<Greenstuff Name="莴笋" Weight="650"/>
+	<Greenstuff Name="豆角" Weight="300"/>
+	<Greenstuff Name="荷兰豆" Weight="340"/>
+	<Greenstuff Name="四季豆" Weight="325"/>
+	<Greenstuff Name="豇豆" Weight="300"/>
+	<Greenstuff Name="葱头" Weight="240"/>
+	<Greenstuff Name="莴笋叶" Weight="500"/>
+	<Greenstuff Name="空心菜" Weight="450"/>
+	<Greenstuff Name="青蒜" Weight="300"/>
+	<Greenstuff Name="蒜黄" Weight="425"/>
+	<Greenstuff Name="蒜苔" Weight="150"/>
+	<Greenstuff Name="冬笋" Weight="225"/>
+	<Greenstuff Name="百合" Weight="60"/>
+	<Greenstuff Name="藕" Weight="130"/>
+	<Greenstuff Name="荸荠" Weight="150"/>
+	<Greenstuff Name="山药" Weight="150"/>
+	<Greenstuff Name="韭菜" Weight="350"/>
+	<Greenstuff Name="韭黄" Weight="400"/>
+	<Greenstuff Name="芦笋" Weight="475"/>
+	<Greenstuff Name="茭白" Weight="400"/>
+	<Greenstuff Name="香椿" Weight="200"/>
+	<Greenstuff Name="芋头" Weight="125"/>
+	<Greenstuff Name="草菇" Weight="400"/>
+	<Greenstuff Name="金针菇" Weight="350"/>
+	<Greenstuff Name="口蘑" Weight="40"/>
+	<Greenstuff Name="鲜蘑菇" Weight="450"/>
+	<Greenstuff Name="黄豆芽" Weight="200"/>
+	<Greenstuff Name="绿豆芽" Weight="500"/>
+	<Greenstuff Name="豌豆苗" Weight="275"/>
+	<Greenstuff Name="白萝卜" Weight="425"/>
+	<Greenstuff Name="心里美萝卜" Weight="425"/>
+	<Greenstuff Name="干木耳" Weight="50"/>
+	<Greenstuff Name="干蘑菇" Weight="40"/>
+	<Greenstuff Name="平菇" Weight="450"/>
+	<Greenstuff Name="香菇" Weight="475"/>
+	<Greenstuff Name="干香菇" Weight="40"/>
+	<Greenstuff Name="干海带" Weight="120"/>
+	<Greenstuff Name="水发木耳" Weight="425"/>
+	<Fruit Name="苹果" Weight="175"/>
+	<Fruit Name="梨" Weight="200"/>
+	<Fruit Name="桃" Weight="200"/>
+	<Fruit Name="李子" Weight="250"/>
+	<Fruit Name="梅" Weight="275"/>
+	<Fruit Name="杏" Weight="250"/>
+	<Fruit Name="鲜枣" Weight="75"/>
+	<Fruit Name="樱桃" Weight="200"/>
+	<Fruit Name="葡萄" Weight="200"/>
+	<Fruit Name="石榴" Weight="150"/>
+	<Fruit Name="桑葚" Weight="200"/>
+	<Fruit Name="猕猴桃" Weight="160"/>
+	<Fruit Name="草莓" Weight="300"/>
+	<Fruit Name="橙" Weight="200"/>
+	<Fruit Name="草莓酱" Weight="30"/>
+	<Fruit Name="柚子" Weight="220"/>
+	<Fruit Name="芭蕉" Weight="80"/>
+	<Fruit Name="菠萝" Weight="220"/>
+	<Fruit Name="荔枝" Weight="128"/>
+	<Fruit Name="芒果" Weight="280"/>
+	<Fruit Name="木瓜" Weight="340"/>
+	<Fruit Name="香蕉" Weight="100"/>
+	<Fruit Name="白兰瓜" Weight="425"/>
+	<Fruit Name="哈密瓜" Weight="260"/>
+	<Fruit Name="香瓜" Weight="350"/>
+	<Fruit Name="西瓜" Weight="360"/>
+	<Fruit Name="柿" Weight="130"/>
+	<Fruit Name="柑橘" Weight="175"/>
+	<Fruit Name="桂圆" Weight="125"/>
+	<BeanProduct Name="黄豆" Weight="25"/>
+	<BeanProduct Name="黑豆" Weight="25"/>
+	<BeanProduct Name="青豆" Weight="25"/>
+	<BeanProduct Name="北豆腐" Weight="90"/>
+	<BeanProduct Name="南豆腐" Weight="160"/>
+	<BeanProduct Name="内酯豆腐" Weight="184"/>
+	<BeanProduct Name="豆腐脑" Weight="600"/>
+	<BeanProduct Name="豆浆" Weight="640"/>
+	<BeanProduct Name="豆腐丝" Weight="45"/>
+	<BeanProduct Name="豆腐皮" Weight="20"/>
+	<BeanProduct Name="豆腐乳" Weight="60"/>
+	<BeanProduct Name="腐竹" Weight="20"/>
+	<BeanProduct Name="豆腐干" Weight="65"/>
+	<BeanProduct Name="绿豆" Weight="30"/>
+	<BeanProduct Name="红小豆" Weight="30"/>
+	<BeanProduct Name="花豆" Weight="30"/>
+	<BeanProduct Name="芸豆" Weight="30"/>
+	<BeanProduct Name="蚕豆" Weight="30"/>
+	<BeanProduct Name="烤蚕豆" Weight="25"/>
+	<BeanProduct Name="炸蚕豆" Weight="20"/>
+	<BeanProduct Name="豌豆" Weight="30"/>
+	<Dairy Name="牛奶" Weight="175"/>
+	<Dairy Name="低脂牛奶" Weight="200"/>
+	<Dairy Name="脱脂牛奶" Weight="275"/>
+	<Dairy Name="全脂牛奶粉" Weight="20"/>
+	<Dairy Name="酸奶" Weight="125"/>
+	<Dairy Name="奶酪" Weight="25"/>
+	<Dairy Name="鲜羊乳" Weight="150"/>
+	<Dairy Name="奶片" Weight="20"/>
+	<Egg Name="鸡蛋" Weight="60"/>
+	<Egg Name="鸡蛋白*" Weight="150"/>
+	<Egg Name="鸡蛋黄" Weight="25"/>
+	<Egg Name="鹅蛋" Weight="50"/>
+	<Egg Name="鹅蛋白*" Weight="180"/>
+	<Egg Name="鹅蛋黄" Weight="30"/>
+	<Egg Name="鸭蛋" Weight="50"/>
+	<Egg Name="鸭蛋白*" Weight="180"/>
+	<Egg Name="鸭蛋黄" Weight="25"/>
+	<Egg Name="皮蛋" Weight="50"/>
+	<Egg Name="鹌鹑蛋" Weight="60"/>
+	<Meat Name="猪里脊肉*" Weight="60"/>
+	<Meat Name="猪瘦肉*" Weight="60"/>
+	<Meat Name="猪耳" Weight="50"/>
+	<Meat Name="猪蹄" Weight="35"/>
+	<Meat Name="猪蹄筋*" Weight="60"/>
+	<Meat Name="猪肉松*" Weight="25"/>
+	<Meat Name="猪小排" Weight="30"/>
+	<Meat Name="猪肚" Weight="80"/>
+	<Meat Name="猪肝" Weight="70"/>
+	<Meat Name="猪舌" Weight="40"/>
+	<Meat Name="猪腰子" Weight="90"/>
+	<Meat Name="猪小肠" Weight="140"/>
+	<Meat Name="猪心" Weight="75"/>
+	<Meat Name="猪血*" Weight="160"/>
+	<Meat Name="培根肉" Weight="50"/>
+	<Meat Name="午餐肉" Weight="40"/>
+	<Meat Name="火腿肠" Weight="40"/>
+	<Meat Name="火腿" Weight="30"/>
+	<Meat Name="香肠" Weight="15"/>
+	<Meat Name="酱牛肉" Weight="35"/>
+	<Meat Name="牛肉干" Weight="15"/>
+	<Meat Name="牛蹄筋*" Weight="60"/>
+	<Meat Name="牛瘦肉*" Weight="85"/>
+	<Meat Name="牛肉松*" Weight="20"/>
+	<Meat Name="羊瘦肉*" Weight="75"/>
+	<Meat Name="羊蹄筋*" Weight="55"/>
+	<Meat Name="驴瘦肉*" Weight="80"/>
+	<Meat Name="狗肉*" Weight="80"/>
+	<Meat Name="兔肉*" Weight="90"/>
+	<Meat Name="鸡" Weight="50"/>
+	<Meat Name="鸡胸脯肉*" Weight="70"/>
+	<Meat Name="鸡血*" Weight="180"/>
+	<Meat Name="鸭" Weight="40"/>
+	<Meat Name="鸭胸脯肉*" Weight="100"/>
+	<Meat Name="鸭血*" Weight="80"/>
+	<Meat Name="鹅" Weight="40"/>
+	<Meat Name="鸽" Weight="40"/>
+	<Meat Name="鹌鹑*" Weight="80"/>
+	<Meat Name="腊肠" Weight="15"/>
+	<Meat Name="草鱼*" Weight="80"/>
+	<Meat Name="鳝鱼*" Weight="100"/>
+	<Meat Name="鲤鱼*" Weight="80"/>
+	<Meat Name="罗非鱼*" Weight="90"/>
+	<Meat Name="泥鳅*" Weight="90"/>
+	<Meat Name="青鱼*" Weight="80"/>
+	<Meat Name="石斑鱼*" Weight="100"/>
+	<Meat Name="鲈鱼*" Weight="90"/>
+	<Meat Name="平鱼*" Weight="60"/>
+	<Meat Name="鳕鱼*" Weight="100"/>
+	<Meat Name="鲇鱼*" Weight="90"/>
+	<Meat Name="甲鱼" Weight="75"/>
+	<Meat Name="对虾*" Weight="100"/>
+	<Meat Name="海虾*" Weight="110"/>
+	<Meat Name="基围虾*" Weight="90"/>
+	<Meat Name="龙虾*" Weight="100"/>
+	<Meat Name="海米、虾仁*" Weight="45"/>
+	<Meat Name="海蟹*" Weight="95"/>
+	<Meat Name="河蟹*" Weight="85"/>
+	<Meat Name="蟹肉*" Weight="145"/>
+	<Meat Name="鲜鱿鱼*" Weight="100"/>
+	<Meat Name="干鱿鱼*" Weight="30"/>
+	<Meat Name="乌贼*" Weight="110"/>
+	<Meat Name="墨鱼*" Weight="110"/>
+	<Meat Name="鲢鱼*" Weight="80"/>
+	<Meat Name="鲫鱼*" Weight="80"/>
+	<Meat Name="武昌鱼" Weight="65"/>
+	<Meat Name="鳗鱼" Weight="50"/>
+	<Meat Name="胖头鱼*" Weight="90"/>
+	<Meat Name="鲑鱼*" Weight="75"/>
+	<Meat Name="虹鳟鱼*" Weight="90"/>
+	<Meat Name="带鱼*" Weight="70"/>
+	<Meat Name="大黄花鱼*" Weight="90"/>
+	<Meat Name="小黄花鱼*" Weight="90"/>
+	<Meat Name="鲍鱼*" Weight="100"/>
+	<Meat Name="干鲍鱼*" Weight="30"/>
+	<Meat Name="河蚌*" Weight="170"/>
+	<Meat Name="牡蛎*" Weight="125"/>
+	<Meat Name="生蚝*" Weight="160"/>
+	<Meat Name="鲜扇贝*" Weight="150"/>
+	<Meat Name="干扇贝*" Weight="34"/>
+	<Meat Name="鲜贝*" Weight="120"/>
+	<Meat Name="哈蜊*" Weight="150"/>
+	<Meat Name="鲜海参*" Weight="115"/>
+	<Meat Name="干海参*" Weight="30"/>
+	<Meat Name="干墨鱼*" Weight="30"/>
+	<VegetableOil Name="花生油" Weight="10"/>
+	<VegetableOil Name="色拉油" Weight="10"/>
+	<VegetableOil Name="玉米油" Weight="10"/>
+	<VegetableOil Name="香油" Weight="10"/>
+	<VegetableOil Name="橄榄油" Weight="10"/>
+	<VegetableOil Name="菜籽油" Weight="10"/>
+	<VegetableOil Name="菜油" Weight="10"/>
+	<VegetableOil Name="豆油" Weight="10"/>
+	<VegetableOil Name="葵花籽油" Weight="10"/>
+	<VegetableOil Name="奶油" Weight="10"/>
+	<VegetableOil Name="黄油" Weight="10"/>
+	<VegetableOil Name="酥油" Weight="10"/>
+	<OtherFatFood Name="海鲜酱" Weight="18"/>
+	<OtherFatFood Name="牛肉酱" Weight="19"/>
+	<OtherFatFood Name="花生酱" Weight="15"/>
+	<OtherFatFood Name="芝麻酱" Weight="13"/>
+	<OtherFatFood Name="千岛沙拉酱" Weight="19"/>
+	<OtherFatFood Name="沙拉酱" Weight="12.5"/>
+	<OtherFatFood Name="奶油攀司" Weight="15"/>
+	<OtherFatFood Name="番茄沙司" Weight="80"/>
+	<OtherFatFood Name="核桃" Weight="14"/>
+	<OtherFatFood Name="松子" Weight="14"/>
+	<OtherFatFood Name="杏仁" Weight="16"/>
+	<OtherFatFood Name="腰果" Weight="16"/>
+	<OtherFatFood Name="榛子" Weight="17"/>
+	<OtherFatFood Name="花生仁" Weight="16"/>
+	<OtherFatFood Name="葵花籽" Weight="15"/>
+	<OtherFatFood Name="南瓜子" Weight="15"/>
+	<OtherFatFood Name="开心果" Weight="15"/>
+	<OtherFatFood Name="香榧" Weight="15"/>
+	<OtherFatFood Name="芝麻" Weight="17"/>
+	<ThreeMeals Cereal="5" Breakfast="1" Lunch="2" Supper="2"/>
+	<ThreeMeals Cereal="6" Breakfast="2" Lunch="2" Supper="2"/>
+	<ThreeMeals Cereal="7" Breakfast="2" Lunch="3" Supper="2"/>
+	<ThreeMeals Cereal="8" Breakfast="2" Lunch="3" Supper="3"/>
+	<ThreeMeals Cereal="9" Breakfast="2" Lunch="4" Supper="3"/>
+	<ThreeMeals Cereal="10" Breakfast="2" Lunch="4" Supper="4"/>
+	<ThreeMeals Cereal="11" Breakfast="3" Lunch="4" Supper="4"/>
+	<ThreeMeals Cereal="12" Breakfast="3" Lunch="5" Supper="4"/>
+	<ThreeMeals Cereal="13" Breakfast="3" Lunch="5" Supper="5"/>
+	<ThreeMeals Cereal="14" Breakfast="4" Lunch="5" Supper="5"/>
+	<FreeSport Items="室内整理"/>
+	<FreeSport Items="散步(50米/分)"/>
+	<FreeSport Items="炊事、烹调"/>
+	<FreeSport Items="乘车、小车驾驶"/>
+	<FreeSport Items="带孩子活动"/>
+	<FreeSport Items="器乐演奏(练习)"/>
+	<LowSport Items="广播体操(肢体操)"/>
+	<LowSport Items="步行(70米/分)"/>
+	<LowSport Items="高尔夫球(平均)"/>
+	<LowSport Items="骑自行车(平地)、下楼梯"/>
+	<LowSport Items="拿放被褥"/>
+	<LowSport Items="太极拳(杨氏)"/>
+	<LowSport Items="瑜珈"/>
+	<LowSport Items="室内清洁"/>
+	<LowSport Items="保龄球"/>
+	<LowSport Items="园林修整"/>
+	<LowSport Items="飞盘"/>
+	<LowSport Items="遛狗"/>
+	<LowSport Items="修车"/>
+	<LowSport Items="慢步跳舞"/>
+	<MiddleSport Items="上楼梯"/>
+	<MiddleSport Items="滑雪"/>
+	<MiddleSport Items="跑步(轻~强)"/>
+	<MiddleSport Items="滑冰、排球、网球(练习)"/>
+	<MiddleSport Items="骑自行车(上坡)"/>
+	<MiddleSport Items="登山"/>
+	<MiddleSport Items="步行(95米/分)"/>
+	<MiddleSport Items="骑车(16公里/h)"/>
+	<MiddleSport Items="快步跳舞"/>
+	<MiddleSport Items="保龄球、滑板、垒球"/>
+	<MiddleSport Items="俯卧撑、仰卧起坐"/>
+	<MiddleSport Items="乒乓球(练习)"/>
+	<HighSport Items="游泳(一般)"/>
+	<HighSport Items="橄榄球 (前卫)"/>
+	<HighSport Items="篮球、足球(练习)"/>
+	<HighSport Items="剑道"/>
+	<HighSport Items="跳绳"/>
+	<HighSport Items="长跑"/>
+	<HighSport Items="跑步上楼梯"/>
+	<HighSport Items="棒球"/>
+	<HighSport Items="快速行走(100米/分)"/>
+	<HighSport Items="骑车(16-19公里/小时)"/>
+	<HighSport Items="有氧体操"/>
+	<HighSport Items="骑车 (19-22公里/小时)"/>
+	<HighSport Items="游泳(比赛)"/>
+	<HighSport Items="快速跳绳"/>
+	<HighSport Items="滑雪运动"/>
+	<HighSport Items="足球比赛"/>
+</SuggestionDetails>

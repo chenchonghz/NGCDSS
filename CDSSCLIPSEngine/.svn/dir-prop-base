@@ -1,0 +1,38 @@
+K 13
+bugtraq:label
+V 7
+Bug ID:
+K 15
+bugtraq:message
+V 15
+Fixed #%BUGID%:
+K 14
+bugtraq:number
+V 4
+true
+K 11
+bugtraq:url
+V 50
+http://192.168.3.2:8080/trac/ngcdss/ticket/%BUGID%
+K 21
+bugtraq:warnifnoissue
+V 4
+true
+K 10
+svn:ignore
+V 4
+obj
+
+K 15
+tsvn:logminsize
+V 1
+1
+K 22
+webviewer:pathrevision
+V 66
+http://192.168.3.2:8080/trac/ngcdss/browser/%PATH%?rev=%REVISION% 
+K 18
+webviewer:revision
+V 57
+http://192.168.3.2:8080/trac/ngcdss/changeset/%REVISION% 
+END

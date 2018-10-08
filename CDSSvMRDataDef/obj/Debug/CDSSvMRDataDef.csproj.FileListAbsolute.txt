@@ -1,0 +1,4 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSvMRDataDef.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSvMRDataDef.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSvMRDataDef\obj\Debug\CDSSvMRDataDef.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSvMRDataDef\obj\Debug\CDSSvMRDataDef.pdb

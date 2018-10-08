@@ -1,0 +1,9 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\Resource\TreeConfig.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\Resource\临时模板.xls
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\NGCDSS.db
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\CDSSDBAccess.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\Release\CDSSDBAccess.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\Release\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\Release\CDSSDBAccess.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\CDSSDBAccess.dll.config

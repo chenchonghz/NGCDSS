@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/NGCDSS/!svn/ver/112/trunk/CDSSDBAccess
+END
+SQLServerDBInterface.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/112/trunk/CDSSDBAccess/SQLServerDBInterface.cs
+END
+CDSSDBAccess.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/106/trunk/CDSSDBAccess/CDSSDBAccess.csproj
+END
+TypeDef.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSDBAccess/TypeDef.cs
+END
+DESClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSDBAccess/DESClass.cs
+END
+NGCDSS.db
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/102/trunk/CDSSDBAccess/NGCDSS.db
+END
+DBAccess.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/112/trunk/CDSSDBAccess/DBAccess.cs
+END

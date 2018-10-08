@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>1</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 20:22:26</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>2</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 20:22:28</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>3</SEQ>
+    <FormName />
+    <ControlName />
+    <ControlType />
+    <EventType>程序未使用</EventType>
+    <TriggerTime>2018/7/31 20:22:27至2018/7/31 20:22:28</TriggerTime>
+    <LastTime>00:00:01.0001935</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>4</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 20:22:30</TriggerTime>
+    <LastTime>00:00:01.7827581</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>5</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 20:22:30</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+</NewDataSet>

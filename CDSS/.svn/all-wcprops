@@ -1,0 +1,975 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 21
+/svn/NGCDSS/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS
+END
+QueryBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/49/trunk/CDSS/QueryBuilder.cs
+END
+RegFrom.resx
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/RegFrom.resx
+END
+AGMinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/AGMinfo.cs
+END
+HighLevelQueryForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/HighLevelQueryForm.cs
+END
+AddSelectTemplate.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/AddSelectTemplate.Designer.cs
+END
+AddSelectTemplate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/AddSelectTemplate.cs
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/56/trunk/CDSS/MainForm.resx
+END
+WaitFrom.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/43/trunk/CDSS/WaitFrom.Designer.cs
+END
+CDSS.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/97/trunk/CDSS/CDSS.csproj
+END
+QueryForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/77/trunk/CDSS/QueryForm.Designer.cs
+END
+ConfigFileEditorUserControl.resx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/64/trunk/CDSS/ConfigFileEditorUserControl.resx
+END
+GroupingDataSet.xsc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/GroupingDataSet.xsc
+END
+GroupingDataSet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/GroupingDataSet.xsd
+END
+StatisticsFrom.resx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/StatisticsFrom.resx
+END
+FamilyDH.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/FamilyDH.Designer.cs
+END
+PrintForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/PrintForm.resx
+END
+SubReport_Xns.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Xns.rdlc
+END
+TypeDef.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/TypeDef.cs
+END
+RegFrom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/RegFrom.cs
+END
+InteroperateToExcel.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/10/trunk/CDSS/InteroperateToExcel.resx
+END
+Resultinfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Resultinfo.resx
+END
+Statistic.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/Statistic.cs
+END
+GroupingDataSet.xss
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/GroupingDataSet.xss
+END
+CombineSameRow.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/39/trunk/CDSS/CombineSameRow.Designer.cs
+END
+DataVerification.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/97/trunk/CDSS/DataVerification.Designer.cs
+END
+DataVerification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/83/trunk/CDSS/DataVerification.cs
+END
+StatisticsFrom.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/StatisticsFrom.Designer.cs
+END
+LipidsDisorder.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/LipidsDisorder.Designer.cs
+END
+DiagnosisStepsForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/DiagnosisStepsForm.Designer.cs
+END
+SubReport_Tdx.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Tdx.rdlc
+END
+InteroperateToExcel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/10/trunk/CDSS/InteroperateToExcel.cs
+END
+QuickInfoEnterForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/79/trunk/CDSS/QuickInfoEnterForm.resx
+END
+Labinfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Labinfo.resx
+END
+ProgressForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/ProgressForm.Designer.cs
+END
+Hyperuricuria.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Hyperuricuria.Designer.cs
+END
+cdss_logo_new.ico
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/cdss_logo_new.ico
+END
+UserFeedback.resx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/UserFeedback.resx
+END
+GroupingDataSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/GroupingDataSet.Designer.cs
+END
+Nephropathy.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Nephropathy.Designer.cs
+END
+PatInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/PatInfo.cs
+END
+WaitFrom.resx
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/35/trunk/CDSS/WaitFrom.resx
+END
+PerHistory.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/PerHistory.Designer.cs
+END
+Login.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Login.Designer.cs
+END
+OtherExaminfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/OtherExaminfo.cs
+END
+SuggestionDetails.resx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SuggestionDetails.resx
+END
+ConditionGrouping.resx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/92/trunk/CDSS/ConditionGrouping.resx
+END
+Suggestioninfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Suggestioninfo.resx
+END
+CRViewForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/CRViewForm.Designer.cs
+END
+DiagnosisStepsForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/DiagnosisStepsForm.cs
+END
+SubReport_Xy.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Xy.rdlc
+END
+InteroperateToExcel.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NGCDSS/!svn/ver/10/trunk/CDSS/InteroperateToExcel.Designer.cs
+END
+SubReport_Dbn.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Dbn.rdlc
+END
+Hypertension.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Hypertension.cs
+END
+InfoEnter.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/79/trunk/CDSS/InfoEnter.Designer.cs
+END
+Hyperuricuria.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Hyperuricuria.cs
+END
+LipidsDisorder.resx
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/LipidsDisorder.resx
+END
+SuggestionDetails.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SuggestionDetails.cs
+END
+SubReport_Fpd.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Fpd.rdlc
+END
+CrystalReport1.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/CrystalReport1.cs
+END
+ConditionGrouping.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/92/trunk/CDSS/ConditionGrouping.cs
+END
+ProgressForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/ProgressForm.resx
+END
+QueryForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/72/trunk/CDSS/QueryForm.resx
+END
+MainForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/MainForm.cs
+END
+ImportTipFrm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/9/trunk/CDSS/ImportTipFrm.resx
+END
+CombineSameRow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/39/trunk/CDSS/CombineSameRow.cs
+END
+ConfigFileEditorUserControl.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NGCDSS/!svn/ver/88/trunk/CDSS/ConfigFileEditorUserControl.Designer.cs
+END
+ConfigFileEditorUserControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NGCDSS/!svn/ver/88/trunk/CDSS/ConfigFileEditorUserControl.cs
+END
+WelcomeForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/WelcomeForm.cs
+END
+PrintForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/71/trunk/CDSS/PrintForm.cs
+END
+CRViewForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/CRViewForm.cs
+END
+Login.resx
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Login.resx
+END
+PerHistory.resx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/PerHistory.resx
+END
+EventHandling.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/EventHandling.cs
+END
+ThreeMeals.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/ThreeMeals.Designer.cs
+END
+Phyinfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Phyinfo.resx
+END
+QueryForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/QueryForm.cs
+END
+Statistics.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Statistics.Designer.cs
+END
+SubReport_Zdx.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Zdx.rdlc
+END
+SuggestionDetails.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SuggestionDetails.Designer.cs
+END
+ImportForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/ImportForm.cs
+END
+ImportDBMerge.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/ImportDBMerge.Designer.cs
+END
+ConfigFileEditorForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/88/trunk/CDSS/ConfigFileEditorForm.Designer.cs
+END
+Statistic.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/67/trunk/CDSS/Statistic.Designer.cs
+END
+PrintReport.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/78/trunk/CDSS/PrintReport.rdlc
+END
+Basicinfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Basicinfo.resx
+END
+Nephropathy.resx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Nephropathy.resx
+END
+AGMinfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/AGMinfo.Designer.cs
+END
+Statistic.resx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/67/trunk/CDSS/Statistic.resx
+END
+CombineSameRow.resx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/31/trunk/CDSS/CombineSameRow.resx
+END
+WaitFrom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/35/trunk/CDSS/WaitFrom.cs
+END
+StatisticMethods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/StatisticMethods.cs
+END
+Basicinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/Basicinfo.cs
+END
+CrystalReport1.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/CrystalReport1.rpt
+END
+TemplateManage.resx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/TemplateManage.resx
+END
+Nephropathy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Nephropathy.cs
+END
+InfoEnter.resx
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/InfoEnter.resx
+END
+SubReport_Other.rdlc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/SubReport_Other.rdlc
+END
+ImportForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/44/trunk/CDSS/ImportForm.resx
+END
+ImportDBMerge.resx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/ImportDBMerge.resx
+END
+ConfigFileEditorForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/64/trunk/CDSS/ConfigFileEditorForm.resx
+END
+LipidsDisorder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/LipidsDisorder.cs
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/App.config
+END
+HighLevelQueryForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NGCDSS/!svn/ver/84/trunk/CDSS/HighLevelQueryForm.Designer.cs
+END
+UserFeedback.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/UserFeedback.Designer.cs
+END
+PublicFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/PublicFunction.cs
+END
+Hypertension.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Hypertension.Designer.cs
+END
+ProgressForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/ProgressForm.cs
+END
+InfoEnter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/96/trunk/CDSS/InfoEnter.cs
+END
+OtherDiseaseHistoryinfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/OtherDiseaseHistoryinfo.resx
+END
+Resultinfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Resultinfo.Designer.cs
+END
+Statistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Statistics.cs
+END
+ImportTipFrm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/9/trunk/CDSS/ImportTipFrm.Designer.cs
+END
+ImportTipFrm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/ImportTipFrm.cs
+END
+Basicinfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Basicinfo.Designer.cs
+END
+AGMinfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/AGMinfo.resx
+END
+ImportForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/44/trunk/CDSS/ImportForm.Designer.cs
+END
+DiagnosisStepsForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/DiagnosisStepsForm.resx
+END
+GroupingDataSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/GroupingDataSet.cs
+END
+AddSelectTemplate.resx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/AddSelectTemplate.resx
+END
+RegFrom.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/RegFrom.Designer.cs
+END
+UserLogOperate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/47/trunk/CDSS/UserLogOperate.cs
+END
+Suggestioninfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/47/trunk/CDSS/Suggestioninfo.Designer.cs
+END
+Hypertension.resx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Hypertension.resx
+END
+ThreeMeals.resx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/ThreeMeals.resx
+END
+Hyperuricuria.resx
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Hyperuricuria.resx
+END
+OtherExaminfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/OtherExaminfo.Designer.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/NGCDSS/!svn/ver/29/trunk/CDSS/Program.cs
+END
+PerHistory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/105/trunk/CDSS/PerHistory.cs
+END
+Login.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Login.cs
+END
+QuickInfoEnterForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NGCDSS/!svn/ver/80/trunk/CDSS/QuickInfoEnterForm.Designer.cs
+END
+Labinfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Labinfo.Designer.cs
+END
+Phyinfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Phyinfo.Designer.cs
+END
+Phyinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Phyinfo.cs
+END
+OtherDiseaseHistoryinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/OtherDiseaseHistoryinfo.cs
+END
+WelcomeForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/WelcomeForm.Designer.cs
+END
+UserFeedback.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/UserFeedback.cs
+END
+UserLogRecycle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/52/trunk/CDSS/UserLogRecycle.cs
+END
+DataToGlobalData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/DataToGlobalData.cs
+END
+RegMachineClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/RegMachineClass.cs
+END
+DataVerification.resx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/97/trunk/CDSS/DataVerification.resx
+END
+ThreeMeals.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/ThreeMeals.cs
+END
+WelcomeForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/WelcomeForm.resx
+END
+CRViewForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/CRViewForm.resx
+END
+Suggestioninfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Suggestioninfo.cs
+END
+Statistics.resx
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Statistics.resx
+END
+MainForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/97/trunk/CDSS/MainForm.Designer.cs
+END
+FamilyDH.resx
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/FamilyDH.resx
+END
+OtherDiseaseHistoryinfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/OtherDiseaseHistoryinfo.Designer.cs
+END
+StatisticsFrom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/StatisticsFrom.cs
+END
+PrintForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/71/trunk/CDSS/PrintForm.Designer.cs
+END
+TemplateManage.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/TemplateManage.Designer.cs
+END
+TemplateManage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/93/trunk/CDSS/TemplateManage.cs
+END
+OtherExaminfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/OtherExaminfo.resx
+END
+Resultinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NGCDSS/!svn/ver/48/trunk/CDSS/Resultinfo.cs
+END
+HighLevelQueryForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/84/trunk/CDSS/HighLevelQueryForm.resx
+END
+FamilyDH.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NGCDSS/!svn/ver/80/trunk/CDSS/FamilyDH.cs
+END
+ConditionGrouping.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NGCDSS/!svn/ver/92/trunk/CDSS/ConditionGrouping.Designer.cs
+END
+ConfigFileEditorForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/86/trunk/CDSS/ConfigFileEditorForm.cs
+END
+ImportDBMerge.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NGCDSS/!svn/ver/112/trunk/CDSS/ImportDBMerge.cs
+END
+Labinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NGCDSS/!svn/ver/2/trunk/CDSS/Labinfo.cs
+END
+QuickInfoEnterForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/96/trunk/CDSS/QuickInfoEnterForm.cs
+END

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TreeNodeState>
+  <CDSS_PatBasicInfo>
+    <PatID />
+    <PatName />
+    <PatSex />
+    <PatEducationLevel />
+    <PatNational />
+    <PatIncomeSource />
+    <PatProfessional />
+    <PatTreatmentCost />
+    <PatIncome />
+    <PatZipcode />
+    <PatBirthday />
+    <PatPhone />
+    <PatBirthProvince />
+    <PatBirthCity />
+    <PatAddress />
+    <PatChildCount />
+    <PatSiblingsCount />
+  </CDSS_PatBasicInfo>
+</TreeNodeState>

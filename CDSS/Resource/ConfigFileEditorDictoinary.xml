@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FoodSportSettingsDictionary>
+  <Cereal>谷薯类</Cereal>
+  <Greenstuff>蔬菜类</Greenstuff>
+  <Fruit>水果类</Fruit>
+  <BeanProduct>豆制品类</BeanProduct>
+  <Dairy>奶制品类</Dairy>
+  <Egg>蛋类</Egg>
+  <Meat>畜禽鱼虾类</Meat>
+  <VegetableOil>植物油类</VegetableOil>
+  <OtherFatFood>其他</OtherFatFood>
+  <ThreeMeals>三餐分配表</ThreeMeals>
+  <FreeSport>休闲运动</FreeSport>
+  <LowSport>轻度运动</LowSport>
+  <MiddleSport>中度运动</MiddleSport>
+  <HighSport>强度运动</HighSport>
+</FoodSportSettingsDictionary>
+

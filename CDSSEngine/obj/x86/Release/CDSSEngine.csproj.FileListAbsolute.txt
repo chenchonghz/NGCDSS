@@ -1,0 +1,7 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\bin\x86\Release\CDSSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\bin\x86\Release\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\bin\x86\Release\CDSSvMRDataDef.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\bin\x86\Release\Clips.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\bin\x86\Release\ProAi.Clips.Framework.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\obj\x86\Release\CDSSEngine.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSEngine\obj\x86\Release\CDSSEngine.dll

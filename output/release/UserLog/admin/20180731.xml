@@ -1,0 +1,282 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>1</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:06</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>2</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnNew</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:06</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>3</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnNew</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:06</TriggerTime>
+    <LastTime>00:00:00.1580338</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>4</SEQ>
+    <FormName>录入病人基本信息</FormName>
+    <ControlName>txb_name</ControlName>
+    <ControlType>System.Windows.Forms.TextBox</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:08</TriggerTime>
+    <LastTime>00:00:01.8151382</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>5</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnNew</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:08</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>6</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnNew</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:08</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>7</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnNew</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:09</TriggerTime>
+    <LastTime>00:00:00.4706216</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>8</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:09</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>9</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:09</TriggerTime>
+    <LastTime>00:00:00.2846660</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>10</SEQ>
+    <FormName>代谢综合征诊疗决策支持软件   版本：2.0.1.1</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.CheckBox</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:09</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>11</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>txtName</ControlName>
+    <ControlType>System.Windows.Forms.TextBox</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:13</TriggerTime>
+    <LastTime>00:00:04.7036664</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>12</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:13</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>13</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:13</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>14</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>btnQuery</ControlName>
+    <ControlType>System.Windows.Forms.Button</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:14</TriggerTime>
+    <LastTime>00:00:01.1427123</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>15</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:14</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>16</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:15</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>17</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:15</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>18</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:17</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>19</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:18</TriggerTime>
+    <LastTime>00:00:03.4950704</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>20</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>medicalGraph</ControlName>
+    <ControlType>CDSSCtrlLib.MedicalGraphControl.MedicalGraph</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:18</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>21</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>medicalGraph</ControlName>
+    <ControlType>CDSSCtrlLib.MedicalGraphControl.MedicalGraph</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:18</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>22</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>medicalGraph</ControlName>
+    <ControlType>CDSSCtrlLib.MedicalGraphControl.MedicalGraph</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:19</TriggerTime>
+    <LastTime>00:00:00.9513060</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>23</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatHistory</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:19</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>24</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatHistory</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:19</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>25</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatHistory</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:20</TriggerTime>
+    <LastTime>00:00:01.0244547</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>26</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:20</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>27</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>groupBoxCondition</ControlName>
+    <ControlType>System.Windows.Forms.GroupBox</ControlType>
+    <EventType>鼠标点击</EventType>
+    <TriggerTime>2018/7/31 19:17:21</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>28</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:25</TriggerTime>
+    <LastTime>00:00:04.6641213</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>29</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:26</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>30</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>失去焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:26</TriggerTime>
+    <LastTime>00:00:00.0320196</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+  <日志_xFF1A_2018_x002F_7_x002F_31>
+    <SEQ>31</SEQ>
+    <FormName>查询</FormName>
+    <ControlName>lvPatBasic</ControlName>
+    <ControlType>System.Windows.Forms.ListView</ControlType>
+    <EventType>获得焦点</EventType>
+    <TriggerTime>2018/7/31 19:17:26</TriggerTime>
+    <LastTime>00:00:00</LastTime>
+  </日志_xFF1A_2018_x002F_7_x002F_31>
+</NewDataSet>

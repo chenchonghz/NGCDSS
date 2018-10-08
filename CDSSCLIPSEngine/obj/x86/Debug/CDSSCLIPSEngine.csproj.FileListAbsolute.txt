@@ -1,0 +1,27 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSCLIPSEngine.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSvMRDataDef.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\Clips.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\ProAi.Clips.Framework.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSvMRDataDef.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSCLIPSEngine.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSCLIPSEngine.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSvMRDataDef.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\Clips.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\ProAi.Clips.Framework.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSvMRDataDef.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.csprojResolveAssemblyReference.cache
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSCLIPSEngine.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSvMRDataDef.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\Clips.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\ProAi.Clips.Framework.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\bin\x86\Debug\CDSSvMRDataDef.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\x86\Debug\CDSSCLIPSEngine.pdb

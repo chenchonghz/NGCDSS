@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NGCDSS/!svn/ver/50/trunk/AutoCopy/MeDSysUpdate
+END
+msado15.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/2/trunk/AutoCopy/MeDSysUpdate/msado15.dll
+END
+MedSysUpdate.ini
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/2/trunk/AutoCopy/MeDSysUpdate/MedSysUpdate.ini
+END
+IHDFtpClient.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/2/trunk/AutoCopy/MeDSysUpdate/IHDFtpClient.dll
+END
+MedSysUpdate.exe
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/2/trunk/AutoCopy/MeDSysUpdate/MedSysUpdate.exe
+END

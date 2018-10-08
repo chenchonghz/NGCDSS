@@ -1,0 +1,11 @@
+[CurrentAppInfo]
+AppName=NGCDSS
+AppVer=2.0.1.1
+InstallPath=C:\ZJU\NGCDSS
+
+[AppsShouldClose]
+AppNames=NGCDSS
+
+[AppSetting]
+DetectInterval=30
+RemindInterval=5

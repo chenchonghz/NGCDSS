@@ -1,0 +1,5 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\Debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\Debug\CDSSSystemData.csprojResolveAssemblyReference.cache

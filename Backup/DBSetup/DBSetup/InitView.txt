@@ -1,0 +1,32 @@
+/****** 对象:  View [dbo].[CDSS_View_DiagnosedResult]    脚本日期: 05/19/2010 22:25:25 ******/
+CREATE VIEW [dbo].[CDSS_View_DiagnosedResult]
+AS
+SELECT DISTINCT RecordSEQ,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult
+                            WHERE      (Name = '代谢综合征') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS MS,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '危险度积分') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS RISK_SCORE,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '危险度') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS RISK_DEGREE,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '糖代谢') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS AGM,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '脂代谢') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS Dyslipidemia,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '肥胖度') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS FAT,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '血尿酸') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS UA,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '血压') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS BP,
+                          (SELECT     Result
+                            FROM          dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_2
+                            WHERE      (Name = '其他') AND (RecordSEQ = CDSS_DiagnosedResult_1.RecordSEQ)) AS OTHERS
+FROM         dbo.CDSS_DiagnosedResult AS CDSS_DiagnosedResult_1

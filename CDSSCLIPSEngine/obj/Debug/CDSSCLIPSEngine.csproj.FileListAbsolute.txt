@@ -1,0 +1,5 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSCLIPSEngine.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.pdb

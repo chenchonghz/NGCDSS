@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/NGCDSS/!svn/ver/107/trunk/CDSSCtrlLib
+END
+QueryBuilder.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/QueryBuilder.Designer.cs
+END
+InfoFormBaseClass.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/InfoFormBaseClass.resx
+END
+QueryBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/21/trunk/CDSSCtrlLib/QueryBuilder.cs
+END
+MedicineControl.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/MedicineControl.Designer.cs
+END
+FamilyDiseaseHistory.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/FamilyDiseaseHistory.resx
+END
+MedicineControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/104/trunk/CDSSCtrlLib/MedicineControl.cs
+END
+DiagnosisResult.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/DiagnosisResult.Designer.cs
+END
+TextBoxNumControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/TextBoxNumControl.cs
+END
+WinExcelControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/42/trunk/CDSSCtrlLib/WinExcelControl.cs
+END
+CDSSRichTextBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/CDSSRichTextBox.cs
+END
+EditRichTextBox.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/EditRichTextBox.resx
+END
+CtrlLib.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/CtrlLib.csproj
+END
+CheckTreeView.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/CheckTreeView.designer.cs
+END
+DiagnosisResult.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/DiagnosisResult.resx
+END
+DateTimeControl.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/DateTimeControl.designer.cs
+END
+DateTimeControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/DateTimeControl.cs
+END
+FamilyDiseaseHistoryDetail.resx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/FamilyDiseaseHistoryDetail.resx
+END
+InfoFormBaseClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/80/trunk/CDSSCtrlLib/InfoFormBaseClass.cs
+END
+FamilyDiseaseHistory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/FamilyDiseaseHistory.cs
+END
+CheckTreeNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/CheckTreeNode.cs
+END
+CheckTreeView.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/CheckTreeView.resx
+END
+EditRichTextBox.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/EditRichTextBox.designer.cs
+END
+EditRichTextBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/EditRichTextBox.cs
+END
+RegularTextBoxEx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/RegularTextBoxEx.cs
+END
+TextBoxNumControl.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/TextBoxNumControl.designer.cs
+END
+WinExcelControl.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NGCDSS/!svn/ver/14/trunk/CDSSCtrlLib/WinExcelControl.Designer.cs
+END
+DiagnosisResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/DiagnosisResult.cs
+END
+FamilyDiseaseHistoryDetail.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/FamilyDiseaseHistoryDetail.Designer.cs
+END
+ComboBoxTreeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/93/trunk/CDSSCtrlLib/ComboBoxTreeView.cs
+END
+FamilyDiseaseHistoryDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/FamilyDiseaseHistoryDetail.cs
+END
+UserStateMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/UserStateMonitor.cs
+END
+CheckTreeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/17/trunk/CDSSCtrlLib/CheckTreeView.cs
+END
+QueryBuilder.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/QueryBuilder.resx
+END
+MedicineControl.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/MedicineControl.resx
+END
+TextBoxNumControl.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/TextBoxNumControl.resx
+END
+WinExcelControl.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/14/trunk/CDSSCtrlLib/WinExcelControl.resx
+END
+InfoFormBaseClass.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/InfoFormBaseClass.designer.cs
+END
+FamilyDiseaseHistory.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/FamilyDiseaseHistory.Designer.cs
+END
+CDSSCtrlLib.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/48/trunk/CDSSCtrlLib/CDSSCtrlLib.csproj
+END
+DateTimeControl.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCtrlLib/DateTimeControl.resx
+END

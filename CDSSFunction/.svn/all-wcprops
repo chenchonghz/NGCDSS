@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/NGCDSS/!svn/ver/50/trunk/CDSSFunction
+END
+CDSSFunction.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSFunction/CDSSFunction.csproj
+END
+TempDataMap.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSFunction/TempDataMap.cs
+END
+DataMapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSFunction/DataMapper.cs
+END
+Interface.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSFunction/Interface.cs
+END
+FunctionTypeDef.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSFunction/FunctionTypeDef.cs
+END
+StructedIEResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSFunction/StructedIEResult.cs
+END

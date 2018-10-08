@@ -1,0 +1,76 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\TreeConfig.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\临时模板.xls
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\NGCDSS.db
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll.config
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Popup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\ZedGraph.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\stdole.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.pdb
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\TreeConfig.xml
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\临时模板.xls
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\NGCDSS.db
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll.config
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.pdb
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Popup.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\ZedGraph.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\stdole.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.pdb
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.pdb
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.xml
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.csprojResolveAssemblyReference.cache
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.dll
+E:\NGCDSS备份\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\TreeConfig.xml
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\临时模板.xls
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\NGCDSS.db
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll.config
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Popup.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\ZedGraph.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\stdole.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.pdb
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.xml
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.csprojResolveAssemblyReference.cache
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.dll
+D:\zqzb\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\TreeConfig.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Resource\临时模板.xls
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\NGCDSS.db
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll.config
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSDBAccess.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Popup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\ZedGraph.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\stdole.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSCtrlLib.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Debug\System.Data.SQLite.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Debug\CDSSDBAccess.pdb

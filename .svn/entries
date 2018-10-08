@@ -1,0 +1,107 @@
+10
+
+dir
+112
+https://192.168.3.2:8443/svn/NGCDSS/trunk
+https://192.168.3.2:8443/svn/NGCDSS
+
+
+
+2012-04-01T07:25:06.218750Z
+112
+yanhui
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+04941313-2511-6b47-b27c-6ced6c87c6de
+
+CDSSEngine
+dir
+
+CDSSDBAccess
+dir
+
+CDSSvMRDataDef
+dir
+
+CDSSPassGenerator
+dir
+
+CDSSSystemData
+dir
+
+CDSS
+dir
+
+Reference
+dir
+
+CDSSFunction
+dir
+
+CDSSUserPowerManager
+dir
+
+AutoCopy
+dir
+
+DBSetup
+dir
+
+CDSSCtrlLib
+dir
+
+Utilities
+dir
+
+NGCDSS.sln
+file
+
+
+
+
+2010-09-28T01:15:55.431154Z
+17e7ea360bda3980844237e11ef28ba0
+2010-09-08T04:26:40.393625Z
+83
+zll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9782
+
+CDSSClientSetup
+dir
+
+CDSSCLIPSEngine
+dir
+

@@ -1,0 +1,1043 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <CDSS_Functions_x0021_统计>
+    <cnName>就诊时间筛选</cnName>
+    <enName>HistoryTime</enName>
+    <type>varchar(20)</type>
+    <tag>其他</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>false</Visible>
+  </CDSS_Functions_x0021_统计>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>病人ID</cnName>
+    <enName>PatID</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>姓名</cnName>
+    <enName>PatName</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>性别（男/女）</cnName>
+    <enName>PatSex</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>文化程度</cnName>
+    <enName>PatEducationLevel</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>民族</cnName>
+    <enName>PatNational</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>经济来源</cnName>
+    <enName>PatIncomeSource</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>职业</cnName>
+    <enName>PatProfessional</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>治疗消费</cnName>
+    <enName>PatTreatmentCost</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>收入</cnName>
+    <enName>PatIncome</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>邮政编码</cnName>
+    <enName>PatZipcode</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>出生日期</cnName>
+    <enName>PatBirthday</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>联系电话</cnName>
+    <enName>PatPhone</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>出生地</cnName>
+    <enName>PatBirthProvince</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>出生城市</cnName>
+    <enName>PatBirthCity</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>联系地址</cnName>
+    <enName>PatAddress</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>子女数</cnName>
+    <enName>PatChildCount</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_PatBasicInfo_x0021_病人基本信息>
+    <cnName>兄弟姐妹数</cnName>
+    <enName>PatSiblingsCount</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PatBasicInfo on CDSS_RecordHistory.PatSEQ = CDSS_PatBasicInfo.PatSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PatBasicInfo_x0021_病人基本信息>
+  <CDSS_RecordHistory_x0021_就诊历史信息>
+    <cnName>就诊时间</cnName>
+    <enName>PatVisitDateTime</enName>
+    <type>varchar(20)</type>
+    <tag>日期</tag>
+    <JoinSqlStr>left join CDSS_RecordHistory on CDSS_RecordHistory.RecordSEQ = CDSS_RecordHistory.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>d-5</standard>
+    <Visible>true</Visible>
+  </CDSS_RecordHistory_x0021_就诊历史信息>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>随机血糖</cnName>
+    <enName>BG</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>空腹血糖</cnName>
+    <enName>FBG</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>餐后2H血糖</cnName>
+    <enName>TWOHPBG</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>进餐主食数量</cnName>
+    <enName>FoodCount</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>OGTT空腹血糖</cnName>
+    <enName>OGTTFBG</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>OGTT餐后血糖</cnName>
+    <enName>OGTTPBG</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>早餐前自测血糖</cnName>
+    <enName>BeforeBreakfast</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>早餐后2H自测血糖</cnName>
+    <enName>AfterBreakfast</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>午餐前自测血糖</cnName>
+    <enName>BeforeLunch</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>午餐后2H自测血糖</cnName>
+    <enName>AfterLunch</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>晚餐前自测血糖</cnName>
+    <enName>BeforeSupper</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>晚餐后2H自测血糖</cnName>
+    <enName>AfterSupper</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>晚睡前自测血糖</cnName>
+    <enName>BeforeSleep</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>凌晨自测血糖</cnName>
+    <enName>LC</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>1</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>总胆固醇</cnName>
+    <enName>TC</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>HDL-CH</cnName>
+    <enName>HDLC</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>甘油三酯</cnName>
+    <enName>TG</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>LDL-CH</cnName>
+    <enName>LDLC</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>肌酐</cnName>
+    <enName>CR</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>丙氨酸氨基转移酶</cnName>
+    <enName>AlanineAminotransferase</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>尿素氮</cnName>
+    <enName>UN</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>天冬氨酸氨基转移酶</cnName>
+    <enName>AspartateAminotransferase</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>Alb/Cr</cnName>
+    <enName>ALBCR</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>尿糖</cnName>
+    <enName>US</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>尿蛋白定量</cnName>
+    <enName>UrinaryProtein</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>尿酮体</cnName>
+    <enName>NTT</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>尿PH</cnName>
+    <enName>UPH</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>尿尿酸</cnName>
+    <enName>UUA</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>HbA1c</cnName>
+    <enName>HBA1C</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血氯</cnName>
+    <enName>BCL</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血尿酸</cnName>
+    <enName>BUA</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血钾</cnName>
+    <enName>BKA</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血钠</cnName>
+    <enName>BNA</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血CO2CP</cnName>
+    <enName>BCO2CP</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血钙</cnName>
+    <enName>BGA</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血磷</cnName>
+    <enName>BP</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血清总蛋白</cnName>
+    <enName>SerumTotalProtein</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>血清白蛋白</cnName>
+    <enName>SerumAlbumin</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>空腹胰岛素</cnName>
+    <enName>FastingInsulin</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>空腹C肽</cnName>
+    <enName>FastingCPeptide</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>餐后胰岛素</cnName>
+    <enName>PostprandialInsulin</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>餐后C肽</cnName>
+    <enName>PostprandialCPeptide</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>ICA</cnName>
+    <enName>ICA</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_LabExamInfo_x0021_实验室检查>
+    <cnName>GDA65</cnName>
+    <enName>GDA65</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_LabExamInfo on CDSS_RecordHistory.RecordSEQ = CDSS_LabExamInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_LabExamInfo_x0021_实验室检查>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>最高体重</cnName>
+    <enName>MaxWeight</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>最高体重年龄</cnName>
+    <enName>MaxWeightAge</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>最高体重持续时间（年）</cnName>
+    <enName>MaxWeightLastedYears</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>是否吸烟</cnName>
+    <enName>IsSmokeing</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>开始吸烟年龄</cnName>
+    <enName>SmokingAgeBegin</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>吸烟频率（支/日）</cnName>
+    <enName>SmokingFrequency</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>吸烟结束年龄</cnName>
+    <enName>SmokingAgeEnd</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>是否饮酒</cnName>
+    <enName>IsDrinking</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>饮酒开始年龄</cnName>
+    <enName>DrinkingAgeBegin</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>饮酒结束年龄</cnName>
+    <enName>DrinkingAgeEnd</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>是否控制饮食</cnName>
+    <enName>HasControlDiet</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>每日主食（两）</cnName>
+    <enName>MainFoodAmount</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>每日植物油数量（g）</cnName>
+    <enName>OilAmount</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>每日蛋白量（两）</cnName>
+    <enName>ProteinAmount</enName>
+    <type>varchar(20)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>已生育（是/否）</cnName>
+    <enName>HasBearing</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>妊娠糖尿病史（是/否）</cnName>
+    <enName>HasGDM</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PersonalHistoryInfo_x0021_个人史>
+    <cnName>近期运动（是/否）</cnName>
+    <enName>HasExerciseRecent</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PersonalHistoryInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PersonalHistoryInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PersonalHistoryInfo_x0021_个人史>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>身高</cnName>
+    <enName>Height</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>体重</cnName>
+    <enName>Weigh</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>腰围</cnName>
+    <enName>WC</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>臀围</cnName>
+    <enName>HC</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>心率</cnName>
+    <enName>HR</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>运动障碍（是/否）</cnName>
+    <enName>HasDyskinesia</enName>
+    <type>varchar(10)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>运动障碍部位</cnName>
+    <enName>DyskinesiaPart</enName>
+    <type>varchar(10)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>收缩压1</cnName>
+    <enName>SBP1</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>舒张压1</cnName>
+    <enName>DBP1</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>收缩压2</cnName>
+    <enName>SBP2</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_PhysicalInfo_x0021_体格检查>
+    <cnName>舒张压2</cnName>
+    <enName>DBP2</enName>
+    <type>varchar(10)</type>
+    <tag>数字</tag>
+    <JoinSqlStr>left join CDSS_PhysicalInfo on CDSS_RecordHistory.RecordSEQ = CDSS_PhysicalInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_PhysicalInfo_x0021_体格检查>
+  <CDSS_AGMInfo_x0021_糖代谢异常病史>
+    <cnName>糖代谢异常史（是/否）</cnName>
+    <enName>HasAGMAbnormal</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_AGMInfo on CDSS_RecordHistory.RecordSEQ = CDSS_AGMInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_AGMInfo_x0021_糖代谢异常病史>
+  <CDSS_DyslipidemiaInfo_x0021_血脂紊乱病史>
+    <cnName>血脂紊乱史（是/否）</cnName>
+    <enName>HasDyslipidemia</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_DyslipidemiaInfo on CDSS_RecordHistory.RecordSEQ = CDSS_DyslipidemiaInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_DyslipidemiaInfo_x0021_血脂紊乱病史>
+  <CDSS_HyperuricemiaInfo_x0021_高尿酸血症史>
+    <cnName>高尿酸血症史（是/否）</cnName>
+    <enName>HasHyperuricemia</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_HyperuricemiaInfo on CDSS_RecordHistory.RecordSEQ = CDSS_HyperuricemiaInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_HyperuricemiaInfo_x0021_高尿酸血症史>
+  <CDSS_HypertensionInfo_x0021_高血压史>
+    <cnName>高血压史（是/否）</cnName>
+    <enName>HasHypertension</enName>
+    <type>varchar(20)</type>
+    <tag>布尔</tag>
+    <JoinSqlStr>left join CDSS_HypertensionInfo on CDSS_RecordHistory.RecordSEQ = CDSS_HypertensionInfo.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_HypertensionInfo_x0021_高血压史>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>代谢综合征</cnName>
+    <enName>MS</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>代谢综合征危险度积分</cnName>
+    <enName>RISK_SCORE</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>代谢综合征危险度</cnName>
+    <enName>RISK_DEGREE</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>糖代谢诊断</cnName>
+    <enName>AGM</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>脂代谢诊断</cnName>
+    <enName>Dyslipidemia</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>肥胖度诊断</cnName>
+    <enName>FAT</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>血尿酸诊断</cnName>
+    <enName>UA</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>血压诊断</cnName>
+    <enName>BP</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+  <CDSS_View_DiagnosedResult_x0021_检查结果>
+    <cnName>其他诊断</cnName>
+    <enName>OTHERS</enName>
+    <type>varchar(20)</type>
+    <tag>文本</tag>
+    <JoinSqlStr>left join CDSS_View_DiagnosedResult on CDSS_RecordHistory.RecordSEQ = CDSS_View_DiagnosedResult.RecordSEQ </JoinSqlStr>
+    <canSelect>0</canSelect>
+    <standard>1</standard>
+    <Visible>true</Visible>
+  </CDSS_View_DiagnosedResult_x0021_检查结果>
+</NewDataSet>

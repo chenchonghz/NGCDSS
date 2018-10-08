@@ -1,0 +1,119 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="CompareConfig" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CompareConfig">
+          <xs:complexType>
+            <xs:sequence>              
+              <xs:element name="对比结果" type="xs:string" minOccurs="0"/>
+              <xs:element name="病人ID" type="xs:string" minOccurs="0" />
+              <xs:element name="性别_xFF08_男_x002F_女_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="出生日期" type="xs:string" minOccurs="0" />
+              <xs:element name="姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="文化程度" type="xs:string" minOccurs="0" />
+              <xs:element name="民族" type="xs:string" minOccurs="0" />
+              <xs:element name="经济来源" type="xs:string" minOccurs="0" />
+              <xs:element name="职业" type="xs:string" minOccurs="0" />
+              <xs:element name="治疗消费" type="xs:string" minOccurs="0" />
+              <xs:element name="收入" type="xs:string" minOccurs="0" />
+              <xs:element name="邮政编码" type="xs:string" minOccurs="0" />
+              <xs:element name="联系电话" type="xs:string" minOccurs="0" />
+              <xs:element name="出生地" type="xs:string" minOccurs="0" />
+              <xs:element name="出生城市" type="xs:string" minOccurs="0" />
+              <xs:element name="联系地址" type="xs:string" minOccurs="0" />
+              <xs:element name="子女数" type="xs:string" minOccurs="0" />
+              <xs:element name="兄弟姐妹数" type="xs:string" minOccurs="0" />
+              <xs:element name="就诊时间" type="xs:string" minOccurs="0" />
+              <xs:element name="随机血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="空腹血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="餐后2H血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="进餐主食数量" type="xs:string" minOccurs="0" />
+              <xs:element name="OGTT空腹血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="OGTT餐后血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="早餐前自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="早餐后2H自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="午餐前自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="午餐后2H自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="晚餐前自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="晚餐后2H自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="晚睡前自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="凌晨自测血糖" type="xs:string" minOccurs="0" />
+              <xs:element name="总胆固醇" type="xs:string" minOccurs="0" />
+              <xs:element name="HDL-CH" type="xs:string" minOccurs="0" />
+              <xs:element name="甘油三酯" type="xs:string" minOccurs="0" />
+              <xs:element name="LDL-CH" type="xs:string" minOccurs="0" />
+              <xs:element name="肌酐" type="xs:string" minOccurs="0" />
+              <xs:element name="丙氨酸氨基转移酶" type="xs:string" minOccurs="0" />
+              <xs:element name="尿素氮" type="xs:string" minOccurs="0" />
+              <xs:element name="天冬氨酸氨基转移酶" type="xs:string" minOccurs="0" />
+              <xs:element name="Alb_x002F_Cr" type="xs:string" minOccurs="0" />
+              <xs:element name="尿糖" type="xs:string" minOccurs="0" />
+              <xs:element name="尿蛋白定量" type="xs:string" minOccurs="0" />
+              <xs:element name="尿酮体" type="xs:string" minOccurs="0" />
+              <xs:element name="尿PH" type="xs:string" minOccurs="0" />
+              <xs:element name="尿尿酸" type="xs:string" minOccurs="0" />
+              <xs:element name="HbA1c" type="xs:string" minOccurs="0" />
+              <xs:element name="血氯" type="xs:string" minOccurs="0" />
+              <xs:element name="血尿酸" type="xs:string" minOccurs="0" />
+              <xs:element name="血钾" type="xs:string" minOccurs="0" />
+              <xs:element name="血钠" type="xs:string" minOccurs="0" />
+              <xs:element name="血CO2CP" type="xs:string" minOccurs="0" />
+              <xs:element name="血钙" type="xs:string" minOccurs="0" />
+              <xs:element name="血磷" type="xs:string" minOccurs="0" />
+              <xs:element name="血清总蛋白" type="xs:string" minOccurs="0" />
+              <xs:element name="血清白蛋白" type="xs:string" minOccurs="0" />
+              <xs:element name="空腹胰岛素" type="xs:string" minOccurs="0" />
+              <xs:element name="空腹C肽" type="xs:string" minOccurs="0" />
+              <xs:element name="餐后胰岛素" type="xs:string" minOccurs="0" />
+              <xs:element name="餐后C肽" type="xs:string" minOccurs="0" />
+              <xs:element name="ICA" type="xs:string" minOccurs="0" />
+              <xs:element name="GDA65" type="xs:string" minOccurs="0" />
+              <xs:element name="最高体重" type="xs:string" minOccurs="0" />
+              <xs:element name="最高体重年龄" type="xs:string" minOccurs="0" />
+              <xs:element name="最高体重持续时间_xFF08_年_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="是否吸烟" type="xs:string" minOccurs="0" />
+              <xs:element name="开始吸烟年龄" type="xs:string" minOccurs="0" />
+              <xs:element name="吸烟频率_xFF08_支_x002F_日_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="吸烟结束年龄" type="xs:string" minOccurs="0" />
+              <xs:element name="是否饮酒" type="xs:string" minOccurs="0" />
+              <xs:element name="饮酒开始年龄" type="xs:string" minOccurs="0" />
+              <xs:element name="饮酒结束年龄" type="xs:string" minOccurs="0" />
+              <xs:element name="是否控制饮食" type="xs:string" minOccurs="0" />
+              <xs:element name="每日主食_xFF08_两_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="每日植物油数量_xFF08_g_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="每日蛋白量_xFF08_两_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="已生育_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="妊娠糖尿病史_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="近期运动_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="身高" type="xs:string" minOccurs="0" />
+              <xs:element name="体重" type="xs:string" minOccurs="0" />
+              <xs:element name="腰围" type="xs:string" minOccurs="0" />
+              <xs:element name="臀围" type="xs:string" minOccurs="0" />
+              <xs:element name="心率" type="xs:string" minOccurs="0" />
+              <xs:element name="运动障碍_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="运动障碍部位" type="xs:string" minOccurs="0" />
+              <xs:element name="收缩压1" type="xs:string" minOccurs="0" />
+              <xs:element name="舒张压1" type="xs:string" minOccurs="0" />
+              <xs:element name="收缩压2" type="xs:string" minOccurs="0" />
+              <xs:element name="舒张压2" type="xs:string" minOccurs="0" />
+              <xs:element name="糖代谢异常史_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="血脂紊乱史_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="高尿酸血症史_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="高血压史_xFF08_是_x002F_否_xFF09_" type="xs:string" minOccurs="0" />
+              <xs:element name="代谢综合征" type="xs:string" minOccurs="0" />
+              <xs:element name="代谢综合征危险度积分" type="xs:string" minOccurs="0" />
+              <xs:element name="代谢综合征危险度" type="xs:string" minOccurs="0" />
+              <xs:element name="糖代谢诊断" type="xs:string" minOccurs="0" />
+              <xs:element name="脂代谢诊断" type="xs:string" minOccurs="0" />
+              <xs:element name="肥胖度诊断" type="xs:string" minOccurs="0" />
+              <xs:element name="血尿酸诊断" type="xs:string" minOccurs="0" />
+              <xs:element name="血压诊断" type="xs:string" minOccurs="0" />
+              <xs:element name="其他诊断" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

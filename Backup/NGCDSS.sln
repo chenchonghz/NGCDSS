@@ -1,0 +1,165 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSS", "CDSS\CDSS.csproj", "{7094C7D9-5CC1-451B-B8F2-065443923B7B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{140E0C96-4C39-438F-A8AD-1B41EFAC12C2} = {140E0C96-4C39-438F-A8AD-1B41EFAC12C2}
+		{8CC9A94F-1A9C-465D-924D-CD62B34CE40C} = {8CC9A94F-1A9C-465D-924D-CD62B34CE40C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSCtrlLib", "CDSSCtrlLib\CDSSCtrlLib.csproj", "{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSSystemData", "CDSSSystemData\CDSSSystemData.csproj", "{C85C2FCC-1268-45F6-9B09-73F74127EDFB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSFunction", "CDSSFunction\CDSSFunction.csproj", "{B8A1D7E9-278D-4D2F-9314-F9B9F437AFAE}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{C85C2FCC-1268-45F6-9B09-73F74127EDFB} = {C85C2FCC-1268-45F6-9B09-73F74127EDFB}
+		{FD549C89-941C-4993-968C-FB463AB5DB91} = {FD549C89-941C-4993-968C-FB463AB5DB91}
+		{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F} = {DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSDBAccess", "CDSSDBAccess\CDSSDBAccess.csproj", "{8CC9A94F-1A9C-465D-924D-CD62B34CE40C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSEngine", "CDSSEngine\CDSSEngine.csproj", "{FD549C89-941C-4993-968C-FB463AB5DB91}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSCLIPSEngine", "CDSSCLIPSEngine\CDSSCLIPSEngine.csproj", "{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F} = {DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSvMRDataDef", "CDSSvMRDataDef\CDSSvMRDataDef.csproj", "{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NGCDSS_ClientSetup", "CDSSClientSetup\CDSSClientSetup.vdproj", "{FFFE9B9A-C95C-4C47-AABD-A2DBA487017B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBSetup", "DBSetup", "{1D098992-1E23-4003-894A-8A32D4491867}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBSetup", "DBSetup\DBSetup\DBSetup.csproj", "{D4EDFB9F-8954-40B2-8736-428B95D926A0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DBSetup_Setup", "DBSetup\DBSetup_Setup\DBSetup_Setup.vdproj", "{CE637AC1-A4CC-4620-B9A7-38D0EDC53AB1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSUserManager", "CDSSUserPowerManager\CDSSUserManager.csproj", "{54FF486B-A65A-4882-BB0D-D0D2F6C24D4C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{7CAFB53B-2AFC-42AB-9DFA-1C53096D1829}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{140E0C96-4C39-438F-A8AD-1B41EFAC12C2} = {140E0C96-4C39-438F-A8AD-1B41EFAC12C2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7094C7D9-5CC1-451B-B8F2-065443923B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7094C7D9-5CC1-451B-B8F2-065443923B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7094C7D9-5CC1-451B-B8F2-065443923B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7094C7D9-5CC1-451B-B8F2-065443923B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85C2FCC-1268-45F6-9B09-73F74127EDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85C2FCC-1268-45F6-9B09-73F74127EDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85C2FCC-1268-45F6-9B09-73F74127EDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85C2FCC-1268-45F6-9B09-73F74127EDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A1D7E9-278D-4D2F-9314-F9B9F437AFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A1D7E9-278D-4D2F-9314-F9B9F437AFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A1D7E9-278D-4D2F-9314-F9B9F437AFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A1D7E9-278D-4D2F-9314-F9B9F437AFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC9A94F-1A9C-465D-924D-CD62B34CE40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC9A94F-1A9C-465D-924D-CD62B34CE40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC9A94F-1A9C-465D-924D-CD62B34CE40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC9A94F-1A9C-465D-924D-CD62B34CE40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4EA809-7F79-4AAB-969F-8A29B1FFE14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFE9B9A-C95C-4C47-AABD-A2DBA487017B}.Debug|Any CPU.ActiveCfg = Debug
+		{FFFE9B9A-C95C-4C47-AABD-A2DBA487017B}.Release|Any CPU.ActiveCfg = Release
+		{D4EDFB9F-8954-40B2-8736-428B95D926A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EDFB9F-8954-40B2-8736-428B95D926A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EDFB9F-8954-40B2-8736-428B95D926A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EDFB9F-8954-40B2-8736-428B95D926A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE637AC1-A4CC-4620-B9A7-38D0EDC53AB1}.Debug|Any CPU.ActiveCfg = Debug
+		{CE637AC1-A4CC-4620-B9A7-38D0EDC53AB1}.Release|Any CPU.ActiveCfg = Release
+		{54FF486B-A65A-4882-BB0D-D0D2F6C24D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FF486B-A65A-4882-BB0D-D0D2F6C24D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FF486B-A65A-4882-BB0D-D0D2F6C24D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FF486B-A65A-4882-BB0D-D0D2F6C24D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAFB53B-2AFC-42AB-9DFA-1C53096D1829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAFB53B-2AFC-42AB-9DFA-1C53096D1829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAFB53B-2AFC-42AB-9DFA-1C53096D1829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAFB53B-2AFC-42AB-9DFA-1C53096D1829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4EDFB9F-8954-40B2-8736-428B95D926A0} = {1D098992-1E23-4003-894A-8A32D4491867}
+		{CE637AC1-A4CC-4620-B9A7-38D0EDC53AB1} = {1D098992-1E23-4003-894A-8A32D4491867}
+	EndGlobalSection
+EndGlobal

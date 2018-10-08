@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CLIPSApp>
+	<!--CLIPS引擎调用配置文件-->
+	<Config>
+		<Filepath>.\CDSSServer\EngineServer\Rule\</Filepath>
+		<DataModelFileName>DataModel.xml</DataModelFileName>
+		<ManualAddDataModelFileName>ManualAddDataModel.xml</ManualAddDataModelFileName>
+		<ConcludeFileName>Conclude.xml</ConcludeFileName>
+		<LogFlag>1</LogFlag>
+		<LogPath>.\CDSSServer\EngineServer\</LogPath>
+	</Config>
+</CLIPSApp>

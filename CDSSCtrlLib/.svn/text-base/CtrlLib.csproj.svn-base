@@ -1,0 +1,168 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CtrlLib</RootNamespace>
+    <AssemblyName>CtrlLib</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\output\debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\output\release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CDSSRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DiagnosisResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiagnosisResult.Designer.cs">
+      <DependentUpon>DiagnosisResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DateTimeControl.designer.cs">
+      <DependentUpon>DateTimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FamilyDiseaseHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FamilyDiseaseHistory.Designer.cs">
+      <DependentUpon>FamilyDiseaseHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FamilyDiseaseHistoryDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyDiseaseHistoryDetail.Designer.cs">
+      <DependentUpon>FamilyDiseaseHistoryDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoFormBaseClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoFormBaseClass.designer.cs">
+      <DependentUpon>InfoFormBaseClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MedicineControl.Designer.cs">
+      <DependentUpon>MedicineControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicineControlLib\DataGridViewComboBoxExCell.cs" />
+    <Compile Include="MedicineControlLib\DataGridViewComboBoxExColumn .cs" />
+    <Compile Include="MedicineControlLib\DataGridViewComboBoxExEditingControl .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MedicineControlLib\MaskedTextBoxCell.cs" />
+    <Compile Include="MedicineControlLib\MaskedTextBoxColumn.cs" />
+    <Compile Include="MedicineControlLib\MaskedTextBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MedicineControlLib\TypeDef.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxNumControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextBoxNumControl.designer.cs">
+      <DependentUpon>TextBoxNumControl.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DiagnosisResult.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DiagnosisResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimeControl.resx">
+      <DependentUpon>DateTimeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyDiseaseHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FamilyDiseaseHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyDiseaseHistoryDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FamilyDiseaseHistoryDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoFormBaseClass.resx">
+      <DependentUpon>InfoFormBaseClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicineControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MedicineControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxNumControl.resx">
+      <DependentUpon>TextBoxNumControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\DiagnosisSteps_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\DiagnosisSteps_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\DiagnosisSteps_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\DiagnosisSteps_disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Add_normal.png" />
+    <None Include="Resource\Delete_normal.png" />
+    <Content Include="Resource\Expand_normal.png" />
+    <Content Include="Resource\Expand_over.png" />
+    <Content Include="Resource\Expand_press.png" />
+    <Content Include="Resource\Shrink_disable.png" />
+    <Content Include="Resource\Shrink_normal.png" />
+    <Content Include="Resource\Shrink_over.png" />
+    <Content Include="Resource\Shrink_press.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

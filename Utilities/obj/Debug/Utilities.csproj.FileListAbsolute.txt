@@ -1,0 +1,16 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Resource\TreeConfig.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Resource\临时模板.xls
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Utilities.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Utilities.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\CDSSCtrlLib.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Popup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\ZedGraph.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\CDSSCtrlLib.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\obj\Debug\Utilities.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\obj\Debug\Utilities.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\Utilities\bin\Debug\stdole.dll

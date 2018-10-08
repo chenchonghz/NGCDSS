@@ -1,0 +1,10 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\bin\x86\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\bin\x86\Debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\x86\Debug\CDSSSystemData.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\x86\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\x86\Debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSSystemData\bin\x86\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSSystemData\bin\x86\Debug\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSSystemData\obj\x86\Debug\CDSSSystemData.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSSystemData\obj\x86\Debug\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1(14)\NGCDSS_SVN_V1.1\CDSSSystemData\obj\x86\Debug\CDSSSystemData.pdb

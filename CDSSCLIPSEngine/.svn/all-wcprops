@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/NGCDSS/!svn/ver/50/trunk/CDSSCLIPSEngine
+END
+ClipsInferenceLog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCLIPSEngine/ClipsInferenceLog.cs
+END
+ClipsEventsDef.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCLIPSEngine/ClipsEventsDef.cs
+END
+ClipsConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCLIPSEngine/ClipsConfig.cs
+END
+ClipsEngine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCLIPSEngine/ClipsEngine.cs
+END
+ClipsFactObtain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCLIPSEngine/ClipsFactObtain.cs
+END
+CDSSCLIPSEngine.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSCLIPSEngine/CDSSCLIPSEngine.csproj
+END

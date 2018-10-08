@@ -1,0 +1,5 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\bin\Release\DBSetup.dll.config
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\bin\Release\DBSetup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\bin\Release\DBSetup.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\obj\Release\DBSetup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\obj\Release\DBSetup.pdb

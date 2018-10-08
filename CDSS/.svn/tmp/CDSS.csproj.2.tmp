@@ -1,0 +1,597 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7094C7D9-5CC1-451B-B8F2-065443923B7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CDSS</RootNamespace>
+    <AssemblyName>NGCDSS</AssemblyName>
+    <StartupObject>CDSS.Program</StartupObject>
+    <ApplicationIcon>cdss_logo_new.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\output\debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\output\release\</OutputPath>
+    <DefineConstants>TRACE;EVAL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Popup, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddSelectTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSelectTemplate.Designer.cs">
+      <DependentUpon>AddSelectTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basicinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basicinfo.Designer.cs">
+      <DependentUpon>Basicinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CombineSameRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CombineSameRow.Designer.cs">
+      <DependentUpon>CombineSameRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionGrouping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConditionGrouping.Designer.cs">
+      <DependentUpon>ConditionGrouping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataToGlobalData.cs" />
+    <Compile Include="DataVerification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataVerification.Designer.cs">
+      <DependentUpon>DataVerification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiagnosisStepsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiagnosisStepsForm.designer.cs">
+      <DependentUpon>DiagnosisStepsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventHandling.cs" />
+    <Compile Include="HighLevelQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighLevelQueryForm.Designer.cs">
+      <DependentUpon>HighLevelQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hyperuricuria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hyperuricuria.Designer.cs">
+      <DependentUpon>Hyperuricuria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForm.Designer.cs">
+      <DependentUpon>ImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportTipFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportTipFrm.Designer.cs">
+      <DependentUpon>ImportTipFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InteroperateToExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InteroperateToExcel.designer.cs">
+      <DependentUpon>InteroperateToExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherExaminfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherExaminfo.Designer.cs">
+      <DependentUpon>OtherExaminfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDiseaseHistoryinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherDiseaseHistoryinfo.Designer.cs">
+      <DependentUpon>OtherDiseaseHistoryinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoEnter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoEnter.Designer.cs">
+      <DependentUpon>InfoEnter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AGMinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AGMinfo.Designer.cs">
+      <DependentUpon>AGMinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hypertension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hypertension.Designer.cs">
+      <DependentUpon>Hypertension.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Labinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labinfo.Designer.cs">
+      <DependentUpon>Labinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LipidsDisorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LipidsDisorder.Designer.cs">
+      <DependentUpon>LipidsDisorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nephropathy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nephropathy.Designer.cs">
+      <DependentUpon>Nephropathy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatInfo.cs" />
+    <Compile Include="PerHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerHistory.Designer.cs">
+      <DependentUpon>PerHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phyinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phyinfo.Designer.cs">
+      <DependentUpon>Phyinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Basicinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Basicinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiagnosisStepsForm.resx">
+      <DependentUpon>DiagnosisStepsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hyperuricuria.resx">
+      <DependentUpon>Hyperuricuria.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherExaminfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OtherExaminfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherDiseaseHistoryinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OtherDiseaseHistoryinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoEnter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InfoEnter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AGMinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AGMinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hypertension.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Hypertension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Labinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LipidsDisorder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LipidsDisorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nephropathy.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Nephropathy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PerHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phyinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Phyinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReport.rdlc" />
+    <EmbeddedResource Include="ProgressForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Resultinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuggestionDetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SuggestionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suggestioninfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Suggestioninfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FamilyDH.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FamilyDH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThreeMeals.resx">
+      <DependentUpon>ThreeMeals.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PublicFunction.cs" />
+    <Compile Include="QueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryForm.Designer.cs">
+      <DependentUpon>QueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegFrom.Designer.cs">
+      <DependentUpon>RegFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegMachineClass.cs" />
+    <Compile Include="Resultinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultinfo.Designer.cs">
+      <DependentUpon>Resultinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuggestionDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuggestionDetails.Designer.cs">
+      <DependentUpon>SuggestionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suggestioninfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suggestioninfo.Designer.cs">
+      <DependentUpon>Suggestioninfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FamilyDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FamilyDH.Designer.cs">
+      <DependentUpon>FamilyDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateManage.Designer.cs">
+      <DependentUpon>TemplateManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThreeMeals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThreeMeals.Designer.cs">
+      <DependentUpon>ThreeMeals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeDef.cs" />
+    <Compile Include="UserFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserFeedback.Designer.cs">
+      <DependentUpon>UserFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogOperate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserLogRecycle.cs" />
+    <Compile Include="WaitFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitFrom.Designer.cs">
+      <DependentUpon>WaitFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cdss_logo_new.ico" />
+    <Content Include="DataBaseTemple.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resource\CompareConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resource\BeanProduct.png" />
+    <Content Include="Resource\CarboPercentnormal.png" />
+    <Content Include="Resource\CarboPercentover.png" />
+    <Content Include="Resource\CarboPercentpress.png" />
+    <Content Include="Resource\cdss_logo_new.ico" />
+    <Content Include="Resource\Cereal.png" />
+    <Content Include="Resource\Dairy.png" />
+    <None Include="DataBaseTemple.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resource\Egg.png" />
+    <Content Include="Resource\ExerciseSuggestion_normal.png" />
+    <Content Include="Resource\ExerciseSuggestion_over.png" />
+    <Content Include="Resource\ExerciseSuggestion_press.png" />
+    <Content Include="Resource\FatPercent_normal.png" />
+    <Content Include="Resource\FatPercent_over.png" />
+    <Content Include="Resource\FatPercent_press.png" />
+    <Content Include="Resource\Fruit.png" />
+    <Content Include="Resource\Greenstuff.png" />
+    <Content Include="Resource\HighIntensityExercise.png" />
+    <Content Include="Resource\large_btn_bk.jpg" />
+    <None Include="Properties\DataSources\PrintDataSource.datasource" />
+    <None Include="Resource\cdss_logo.jpg" />
+    <None Include="Resource\Main_Bk.jpg" />
+    <None Include="Resource\PatientInfo_Bk.jpg" />
+    <EmbeddedResource Include="AddSelectTemplate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddSelectTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CombineSameRow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CombineSameRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConditionGrouping.resx">
+      <DependentUpon>ConditionGrouping.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataVerification.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataVerification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighLevelQueryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HighLevelQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportTipFrm.resx">
+      <DependentUpon>ImportTipFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteroperateToExcel.resx">
+      <DependentUpon>InteroperateToExcel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegFrom.resx">
+      <DependentUpon>RegFrom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubReport_Other.rdlc" />
+    <EmbeddedResource Include="SubReport_Dbn.rdlc" />
+    <EmbeddedResource Include="SubReport_Fpd.rdlc" />
+    <EmbeddedResource Include="SubReport_Xns.rdlc" />
+    <EmbeddedResource Include="SubReport_Xy.rdlc" />
+    <EmbeddedResource Include="SubReport_Zdx.rdlc" />
+    <EmbeddedResource Include="SubReport_Tdx.rdlc" />
+    <EmbeddedResource Include="TemplateManage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TemplateManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserFeedback.resx">
+      <DependentUpon>UserFeedback.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitFrom.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WaitFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Resource\LowIntensityExercise.png" />
+    <Content Include="Resource\Meat.png" />
+    <Content Include="Resource\MiddleIntensityExercise.png" />
+    <Content Include="Resource\NoIntensityExercise.png" />
+    <Content Include="Resource\open.gif" />
+    <Content Include="Resource\OtherFatFood.png" />
+    <Content Include="Resource\ProteinPercent_normal.png" />
+    <Content Include="Resource\ProteinPercent_over.png" />
+    <Content Include="Resource\ProteinPercent_press.png" />
+    <Content Include="Resource\save.gif" />
+    <Content Include="Resource\TabDietdefault.png" />
+    <Content Include="Resource\TabDietfocus.png" />
+    <Content Include="Resource\TabExercisedefault.png" />
+    <Content Include="Resource\TabExercisefocus.png" />
+    <Content Include="Resource\VegetableOil.png" />
+    <Content Include="Resource\Welcome_Bk.jpg" />
+    <Content Include="Resource\保存案例_disable.png" />
+    <Content Include="Resource\保存案例_normal.png" />
+    <Content Include="Resource\保存案例_over.png" />
+    <Content Include="Resource\保存案例_press.png" />
+    <Content Include="Resource\信息录入_disable.png" />
+    <Content Include="Resource\信息录入_normal.png" />
+    <Content Include="Resource\信息录入_over.png" />
+    <Content Include="Resource\信息录入_press.png" />
+    <Content Include="Resource\关闭_normal.png" />
+    <Content Include="Resource\关闭_over.png" />
+    <Content Include="Resource\关闭_press.png" />
+    <None Include="Resource\发送.png" />
+    <None Include="Resource\意见反馈_disable.png" />
+    <None Include="Resource\意见反馈_normal.png" />
+    <None Include="Resource\意见反馈_over.png" />
+    <None Include="Resource\意见反馈_press.png" />
+    <None Include="Resource\小删除按钮_normal.png" />
+    <None Include="Resource\小添加按钮_normal.png" />
+    <Content Include="Resource\打印_disable.png" />
+    <Content Include="Resource\打印_normal.png" />
+    <Content Include="Resource\打印_over.png" />
+    <Content Include="Resource\打印_press.png" />
+    <Content Include="Resource\新入_disable.png" />
+    <Content Include="Resource\新入_normal.png" />
+    <Content Include="Resource\新入_over.png" />
+    <Content Include="Resource\新入_press.png" />
+    <Content Include="Resource\最小化_normal.png" />
+    <Content Include="Resource\最小化_over.png" />
+    <Content Include="Resource\最小化_press.png" />
+    <Content Include="Resource\查询_disable.png" />
+    <Content Include="Resource\查询_normal.png" />
+    <Content Include="Resource\查询_over.png" />
+    <Content Include="Resource\查询_press.png" />
+    <Content Include="Resource\清空页面_disable.png" />
+    <Content Include="Resource\清空页面_normal.png" />
+    <Content Include="Resource\清空页面_over.png" />
+    <Content Include="Resource\清空页面_press.png" />
+    <Content Include="Resource\诊断结论_disable.png" />
+    <Content Include="Resource\诊断结论_normal.png" />
+    <Content Include="Resource\诊断结论_over.png" />
+    <Content Include="Resource\诊断结论_press.png" />
+    <Content Include="Resource\饮食运动建议_disable.png" />
+    <Content Include="Resource\饮食运动建议_normal.png" />
+    <Content Include="Resource\饮食运动建议_over.png" />
+    <Content Include="Resource\饮食运动建议_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDSSCLIPSEngine\CDSSCLIPSEngine.csproj">
+      <Project>{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}</Project>
+      <Name>CDSSCLIPSEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDSSDBAccess\CDSSDBAccess.csproj">
+      <Project>{8CC9A94F-1A9C-465D-924D-CD62B34CE40C}</Project>
+      <Name>CDSSDBAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDSSFunction\CDSSFunction.csproj">
+      <Project>{B8A1D7E9-278D-4D2F-9314-F9B9F437AFAE}</Project>
+      <Name>CDSSFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDSSSystemData\CDSSSystemData.csproj">
+      <Project>{C85C2FCC-1268-45F6-9B09-73F74127EDFB}</Project>
+      <Name>CDSSSystemData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDSSCtrlLib\CDSSCtrlLib.csproj">
+      <Project>{140E0C96-4C39-438F-A8AD-1B41EFAC12C2}</Project>
+      <Name>CDSSCtrlLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{7CAFB53B-2AFC-42AB-9DFA-1C53096D1829}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /E/Y/Q "$(SolutionDir)AutoCopy" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

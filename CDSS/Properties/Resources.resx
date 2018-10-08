@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="导入_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\导入_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计分组_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\统计分组_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="诊断结论_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\诊断结论_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\打印_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Meat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Meat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="饮食运动建议_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\饮食运动建议_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="饮食运动建议_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\饮食运动建议_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FatPercent_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\FatPercent_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导入_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\导入_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="清空页面_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\清空页面_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查询_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\查询_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\打印_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存案例_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\保存案例_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导入_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\导入_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Main_Bk.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Dairy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProteinPercent_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\ProteinPercent_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存案例_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\保存案例_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\设置_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="清空页面_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\清空页面_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新入_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\新入_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\设置_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExerciseSuggestion_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\ExerciseSuggestion_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VegetableOil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\VegetableOil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="饮食运动建议_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\饮食运动建议_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TabExercise_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\TabExercisedefault.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Greenstuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Greenstuff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighIntensityExercise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\HighIntensityExercise.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExerciseSuggestion_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\ExerciseSuggestion_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Button_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoIntensityExercise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\NoIntensityExercise.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FatPercent_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\FatPercent_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新入_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\新入_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cdss_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\cdss_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cereal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Cereal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="信息录入_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\信息录入_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarboPercent_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\CarboPercentnormal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CDSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\cdss_logo_new.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProteinPercent_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\ProteinPercent_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存案例_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\保存案例_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Button_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\打印_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome_Bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Welcome_Bk.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\打印_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="发送" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\发送.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LowIntensityExercise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\LowIntensityExercise.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Button_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="饮食运动建议_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\饮食运动建议_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="信息录入_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\信息录入_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\设置_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MiddleIntensityExercise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\MiddleIntensityExercise.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="诊断结论_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\诊断结论_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\设置_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="average1" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="ExerciseSuggestion_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\ExerciseSuggestion_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新入_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\新入_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Fruit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导入_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\导入_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="信息录入_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\信息录入_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeanProduct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\BeanProduct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="清空页面_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\清空页面_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计分组_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\统计分组_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\设置_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查询_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\查询_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="诊断结论_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\诊断结论_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查询_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\查询_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TabDietdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\TabDietdefault.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小删除按钮_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\小删除按钮_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FatPercent_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\FatPercent_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新入_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\新入_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="large_btn_bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\large_btn_bk.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TabDiet_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\TabDietfocus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计分组_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\统计分组_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PatientInfo_Bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\PatientInfo_Bk.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计分组_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\统计分组_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="信息录入_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\信息录入_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存案例_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\保存案例_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="诊断结论_pres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\诊断结论_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TabExercise_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\TabExercisefocus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小添加按钮_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\小添加按钮_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查询_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\查询_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导入_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\导入_normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="诊断结论_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\诊断结论_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\Egg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarboPercent_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\CarboPercentover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="清空页面_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\清空页面_press.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProteinPercent_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\ProteinPercent_over.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OtherFatFood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\OtherFatFood.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarboPercent_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\CarboPercentpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打开文件" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\打开文件.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

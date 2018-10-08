@@ -1,0 +1,6 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\bin\Debug\DBSetup.dll.config
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\bin\Debug\DBSetup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\bin\Debug\DBSetup.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\obj\Debug\DBSetup.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\obj\Debug\DBSetup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\DBSetup\DBSetup\obj\Debug\DBSetup.pdb

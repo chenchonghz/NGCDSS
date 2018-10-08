@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/NGCDSS/!svn/ver/50/trunk/DBSetup/DBSetup
+END
+ConfigAdHoc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/ConfigAdHoc.txt
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/app.config
+END
+masterDataSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/masterDataSet.Designer.cs
+END
+DBSetup.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/DBSetup.csproj
+END
+DBInstaller.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/DBInstaller.Designer.cs
+END
+DBInstaller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/DBInstaller.cs
+END
+InitDB.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/InitDB.txt
+END
+InitView.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/InitView.txt
+END
+masterDataSet.xsc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/masterDataSet.xsc
+END
+masterDataSet.xss
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/masterDataSet.xss
+END
+masterDataSet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NGCDSS/!svn/ver/2/trunk/DBSetup/DBSetup/masterDataSet.xsd
+END

@@ -1,0 +1,9 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSUserPowerManager.exe
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\debug\CDSSUserPowerManager.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserPowerManager.Login.resources
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserPowerManager.Properties.Resources.resources
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserPowerManager.UserManage.resources
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserManager.csproj.GenerateResource.Cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserPowerManager.exe
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserPowerManager.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSUserPowerManager\obj\Debug\CDSSUserManager.csprojResolveAssemblyReference.cache

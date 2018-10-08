@@ -1,0 +1,15 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\Resource\TreeConfig.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\Resource\临时模板.xls
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\NGCDSS.db
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\CDSSDBAccess.dll.config
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\CDSSDBAccess.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\CDSSCtrlLib.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\System.Data.SQLite.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\Popup.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\ZedGraph.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\stdole.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\bin\x86\Release\System.Data.SQLite.xml
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Release\CDSSDBAccess.csprojResolveAssemblyReference.cache
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSDBAccess\obj\x86\Release\CDSSDBAccess.dll

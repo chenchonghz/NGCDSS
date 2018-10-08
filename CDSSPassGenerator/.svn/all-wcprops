@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/NGCDSS/!svn/ver/50/trunk/CDSSPassGenerator
+END
+PassGenerator.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSPassGenerator/PassGenerator.Designer.cs
+END
+PassGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSPassGenerator/PassGenerator.cs
+END
+CDSSPassGenerator.sln
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSPassGenerator/CDSSPassGenerator.sln
+END
+CDSSPassGenerator.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSPassGenerator/CDSSPassGenerator.csproj
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSPassGenerator/Program.cs
+END
+PassGenerator.resx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NGCDSS/!svn/ver/2/trunk/CDSSPassGenerator/PassGenerator.resx
+END

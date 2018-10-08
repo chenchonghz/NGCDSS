@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Control>
+  <GroupBox Name="gbPhysicalCheck" Text="体格检查" Location="2,2" Size="200,20" AutoSize="true" BackColor="205,228,236" Font="10.5" Anchor="Left,Right">
+    <Label Name="Label" Text="  身高:" Location="10,29"   Size="75,14" Font="10.5"></Label>
+    <TextBox Name="Height" Text="" Location="85,25"   Size="90,23" TabIndex="1001"  Font="10.5" Tag="PhysicalInfo.Height"></TextBox>
+    <Label Name="Label" Text="cm" Location="175,29"   Size="21,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  体重:" Location="240,29"   Size="75,14" Font="10.5"></Label>
+    <TextBox Name="Weigh" Text="" Location="315,25"   Size="90,23" TabIndex="1002"  Font="10.5" Tag="PhysicalInfo.Weigh"></TextBox>
+    <Label Name="Label" Text="kg" Location="405,29"   Size="21,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  腰围:" Location="470,29"   Size="75,14" Font="10.5"></Label>
+    <TextBox Name="WC" Text="" Location="545,25"  Size="90,23" TabIndex="1003" Font="10.5" Tag="PhysicalInfo.WC"></TextBox>
+    <Label Name="Label" Text="cm" Location="640,29"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="收缩压:" Location="10,65"   Size="75,14" Font="10.5"></Label>
+    <TextBox Name="SBP1" Text="" Location="85,60"   Size="90,23" TabIndex="1004" Font="10.5" Tag="PhysicalInfo.SBP1"></TextBox>
+    <Label Name="Label" Text="mmHg" Location="175,65"   Size="40,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="舒张压:" Location="240,65"   Size="75,14" Font="10.5"></Label>
+    <TextBox Name="DBP1" Text="" Location="315,60"   Size="90,23" TabIndex="1005" Font="10.5" Tag="PhysicalInfo.DBP1"></TextBox>
+    <Label Name="Label" Text="mmHg" Location="405,65"   Size="40,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  臀围:" Location="470,65"   Size="75,14" Font="10.5"></Label>
+    <TextBox Name="HC" Text="" Location="545,60"  Size="90,23" TabIndex="1006" Font="10.5" Tag="PhysicalInfo.HC"></TextBox>
+    <Label Name="Label" Text="cm" Location="640,65"   Size="63,29" Font="10.5"></Label>
+  </GroupBox>
+
+  <GroupBox Name="gbLabCheck" Text="实验室检查" Location="2,20" Size="200,20" AutoSize="true" BackColor="205,228,236" Font="10.5" Anchor="Left,Right">
+    <Label Name="Label" Text="    空腹血糖:" Location="10,29"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="FBG" Text="" Location="110,25"   Size="50,23" TabIndex="2001" Font="10.5" Tag="LabExamInfo.FBG"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="166,29"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    餐后血糖:" Location="240,29"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="TWOHPBG" Text="" Location="340,25"   Size="50,23" TabIndex="2002"  Font="10.5" Tag="LabExamInfo.TWOHPBG"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="396,29"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  糖化血红蛋白:" Location="470,29"   Size="115,14" Font="10.5"></Label>
+    <TextBox Name="HBA1C" Text="" Location="585,25"  Size="50,23" TabIndex="2003" Font="10.5" Tag="LabExamInfo.HBA1C"></TextBox>
+    <Label Name="Label" Text="%" Location="640,29"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  空腹胰岛素:" Location="10,65"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="FINS" Text="" Location="110,60"   Size="50,23" TabIndex="2004" Font="10.5" Tag="LabExamInfo.FastingInsulin"></TextBox>
+    <Label Name="Label" Text="mlu/L" Location="165,65"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  餐后胰岛素:" Location="240,65"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="TWOINS" Text="" Location="340,60"   Size="50,23" TabIndex="2005"  Font="10.5" Tag="LabExamInfo.PostprandialInsulin"></TextBox>
+    <Label Name="Label" Text="mlu/L" Location="395,65"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="          肌酐:" Location="470,65"   Size="115,14" Font="10.5"></Label>
+    <TextBox Name="CR" Text="" Location="585,60"  Size="50,23" TabIndex="2006" Font="10.5" Tag="LabExamInfo.CR" ></TextBox>
+    <Label Name="Label" Text="umol/L" Location="640,65"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="         ALT:" Location="10,110"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="ALT" Text="" Location="110,105"   Size="50,23" TabIndex="2007" Font="10.5"  Tag="LabExamInfo.AlanineAminotransferase" ></TextBox>
+    <Label Name="Label" Text="U/L" Location="165,110"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="         AST:" Location="240,110"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="UrinaryProtein" Text="" Location="340,105"   Size="50,23" TabIndex="2008" Font="10.5" Tag="LabExamInfo.AspartateAminotransferase"></TextBox>
+    <Label Name="Label" Text="U/L" Location="395,110"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="        总蛋白:" Location="470,110"   Size="115,14" Font="10.5"></Label>
+    <TextBox Name="TLB" Text="" Location="585,105"  Size="50,23" TabIndex="2009" Font="10.5" Tag="LabExamInfo.SerumTotalProtein"></TextBox>
+    <Label Name="Label" Text="g/L" Location="640,110"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="      白蛋白:" Location="10,155"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="ALB" Text="" Location="110,150"   Size="50,23" TabIndex="2010" Font="10.5" Tag="LabExamInfo.SerumAlbumin"></TextBox>
+    <Label Name="Label" Text="g/L" Location="165,155"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="      血尿酸:" Location="240,155"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="BUA" Text="" Location="340,150"   Size="50,23" TabIndex="2011" Font="10.5" Tag="LabExamInfo.BUA"></TextBox>
+    <Label Name="Label" Text="umol/L" Location="395,155"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="      总胆固醇:" Location="470,155"   Size="115,14" Font="10.5"></Label>
+    <TextBox Name="TC" Text="" Location="585,150"  Size="50,23" TabIndex="2012" Font="10.5" Tag="LabExamInfo.TC"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="640,155"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="      HDL-ch:" Location="10,200"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="HDLC" Text="" Location="110,195"   Size="50,23" TabIndex="2013" Font="10.5" Tag="LabExamInfo.HDLC"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="165,200"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    甘油三酯:" Location="240,200"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="TG" Text="" Location="340,195"   Size="50,23" TabIndex="2014"  Font="10.5" Tag="LabExamInfo.TG"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="395,200"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="        LDL-ch:" Location="470,200"   Size="115,14" Font="10.5"></Label>
+    <TextBox Name="LDLC" Text="" Location="585,195"  Size="50,23" TabIndex="2015" Font="10.5" Tag="LabExamInfo.LDLC"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="640,200"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    总胆红素:" Location="10,245"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="TBIL" Text="" Location="110,240"   Size="40,23" TabIndex="2016" Font="10.5" Tag="LabExamInfo.Tbil"></TextBox>
+    <Label Name="Label" Text="umol/L" Location="150,245"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="      尿素氮:" Location="190,245"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="UN" Text="" Location="290,240"   Size="40,23" TabIndex="2017" Font="10.5" Tag="LabExamInfo.UN"></TextBox>
+    <Label Name="Label" Text="mmol/L" Location="330,245"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    甲胎蛋白:" Location="370,245"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="AFP" Text="" Location="470,240"   Size="40,23" TabIndex="2018"  Font="10.5" Tag="LabExamInfo.AFP"></TextBox>
+    <Label Name="Label" Text="ug/L" Location="510,245"   Size="63,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    癌胚抗原:" Location="550,245"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="CEA" Text="" Location="650,240"   Size="40,23" TabIndex="2019"  Font="10.5" Tag="LabExamInfo.CEA"></TextBox>
+    <Label Name="Label" Text="ug/L" Location="695,245"   Size="63,14" Font="10.5"></Label>
+  </GroupBox>
+
+  <GroupBox Name="gbFamilyHistory" Text="个人史" Location="2,40" Size="600,20" AutoSize="true" BackColor="205,228,236" Font="10.5" Anchor="Left,Right">
+    <Label Name="Label" Text="      吸烟史:" Location="10,29"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="Smoke" Text="" Location="110,25"   Size="50,23" TabIndex="3001" Font="10.5" Tag="PersonalHistoryInfo.IsSmokeing"></TextBox>
+    <Label Name="Label" Text="(true/false)" Location="165,29"   Size="100,30" Font="10.5"></Label>
+
+    <Label Name="Label" Text="      饮酒史:" Location="240,29"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="Drink" Text="" Location="340,25"   Size="50,23" TabIndex="3002"  Font="10.5" Tag="PersonalHistoryInfo.IsDrinking"></TextBox>
+    <Label Name="Label" Text="(true/false)" Location="395,29"   Size="100,30" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    近期运动:" Location="470,29"   Size="115,14" Font="10.5"></Label>
+    <TextBox Name="Exe" Text="" Location="585,25"  Size="50,23" TabIndex="3003" Font="10.5" Tag="PersonalHistoryInfo.HasExerciseRecent"></TextBox>
+    <Label Name="Label" Text="(true/false)" Location="640,29"   Size="100,30" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    每日主食:" Location="10,65"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="Food" Text="" Location="110,60"  Size="40,23" TabIndex="3004" Font="10.5" Tag="PersonalHistoryInfo.MainFoodAmount"></TextBox>
+    <Label Name="Label" Text="两" Location="150,65"   Size="30,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="每日植物油量:" Location="190,65"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="Oil" Text="" Location="290,60"   Size="40,23" TabIndex="3005" Font="10.5" Tag="PersonalHistoryInfo.OilAmount"></TextBox>
+    <Label Name="Label" Text="两" Location="330,65"   Size="30,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="  每日蛋白量:" Location="370,65"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="Protein" Text="" Location="470,60"   Size="40,23" TabIndex="3006" Font="10.5" Tag="PersonalHistoryInfo.ProteinAmount"></TextBox>
+    <Label Name="Label" Text="两" Location="510,65"   Size="30,14" Font="10.5"></Label>
+
+    <Label Name="Label" Text="    最高体重:" Location="550,65"   Size="100,14" Font="10.5"></Label>
+    <TextBox Name="MaxWeight" Text="" Location="650,60"  Size="40,23" TabIndex="3007" Font="10.5" Tag="PersonalHistoryInfo.MaxWeight"></TextBox>
+    <Label Name="Label" Text="kg" Location="695,65"   Size="30,29" Font="10.5"></Label>
+  </GroupBox>
+</Control>
+<!---->

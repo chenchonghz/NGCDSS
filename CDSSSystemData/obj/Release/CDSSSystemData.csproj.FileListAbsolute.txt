@@ -1,0 +1,4 @@
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\output\release\CDSSSystemData.pdb
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\Release\CDSSSystemData.dll
+E:\summer\Summer Training\NGCDSS_SVN_V1.1\CDSSSystemData\obj\Release\CDSSSystemData.pdb

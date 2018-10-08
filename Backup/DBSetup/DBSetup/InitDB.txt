@@ -1,0 +1,790 @@
+USE [NGCDSS]
+ 
+/****** 对象:  Table [dbo].[CDSS_ExerciseInfo]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_ExerciseInfo](
+	[ExerciseInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[TableName] [varchar](50) NOT NULL,
+	[Types] [varchar](50) NOT NULL,
+	[ExerciseType] [varchar](20) NULL,
+	[DaysOneWeek] [varchar](20) NULL,
+	[LastedHourOneDay] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_ExerciseInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_ExerciseInfo] PRIMARY KEY CLUSTERED 
+(
+	[ExerciseInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_FamilyDiseaseHistoryInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_FamilyDiseaseHistoryInfo](
+	[FamilyDiseaseHistoryInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[FatherHistory] [varchar](100) NULL,
+	[MotherHistory] [varchar](100) NULL,
+	[SiblingsHistory] [varchar](100) NULL,
+	[ChildrenHistory] [varchar](100) NULL,
+	[OtherHistory] [varchar](100) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_FamilyDiseaseHistoryInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_FamilyDiseaseHistoryInfo] PRIMARY KEY CLUSTERED 
+(
+	[FamilyDiseaseHistoryInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_HypertensionInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_HypertensionInfo](
+	[HypertensionInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[HasHypertension] [varchar](20) NULL,
+	[MaxSBP] [varchar](20) NULL,
+	[MaxDBP] [varchar](20) NULL,
+	[MinSBP] [varchar](20) NULL,
+	[MinDBP] [varchar](20) NULL,
+	[BPControlFromYear] [varchar](4) NULL,
+	[BPControlToYear] [varchar](4) NULL,
+	[PeacetimeMinSBP] [varchar](20) NULL,
+	[PeacetimeMaxSBP] [varchar](20) NULL,
+	[PeacetimeMinDBP] [varchar](20) NULL,
+	[PeacetimeMaxDBP] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_HypertensionInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_HypertensionInfo] PRIMARY KEY CLUSTERED 
+(
+	[HypertensionInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_HyperuricemiaInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_HyperuricemiaInfo](
+	[HyperuricemiaInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[HasHyperuricemia] [varchar](20) NULL,
+	[HyperuricemiaType] [varchar](20) NULL,
+	[HasGoutyArthritis] [varchar](20) NULL,
+	[GoutyArthritisDetectedDateTime] [datetime] NULL,
+	[HasTophus] [varchar](20) NULL,
+	[TophusPart] [varchar](20) NULL,
+	[HasJointSwelling] [varchar](20) NULL,
+	[SyncFlag] [int] NULL CONSTRAINT [DF_CDSS_HyperuricemiaInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_HyperuricemiaInfo] PRIMARY KEY CLUSTERED 
+(
+	[HyperuricemiaInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_LabExamInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_LabExamInfo](
+	[LabExamInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[LabExamDateTime] [datetime] NOT NULL,
+	[BG] [varchar](20) NULL,
+	[FBG] [varchar](20) NULL,
+	[TwoHPBG] [varchar](20) NULL,
+	[FoodCount] [varchar](20) NULL,
+	[OGTTFBG] [varchar](20) NULL,
+	[OGTTPBG] [varchar](20) NULL,
+	[BeforeBreakfast] [varchar](20) NULL,
+	[AfterBreakfast] [varchar](20) NULL,
+	[BeforeLunch] [varchar](20) NULL,
+	[AfterLunch] [varchar](20) NULL,
+	[BeforeSupper] [varchar](20) NULL,
+	[AfterSupper] [varchar](20) NULL,
+	[BeforeSleep] [varchar](20) NULL,
+	[LC] [varchar](20) NULL,
+	[TC] [varchar](20) NULL,
+	[HDLC] [varchar](20) NULL,
+	[TG] [varchar](20) NULL,
+	[LDLC] [varchar](20) NULL,
+	[CR] [varchar](20) NULL,
+	[AlanineAminotransferase] [varchar](20) NULL,
+	[UN] [varchar](20) NULL,
+	[AspartateAminotransferase] [varchar](20) NOT NULL,
+	[ALBCR] [varchar](20) NULL,
+	[US] [varchar](20) NULL,
+	[UrinaryProtein] [varchar](20) NULL,
+	[NTT] [varchar](20) NULL,
+	[UPH] [varchar](20) NULL,
+	[UUA] [varchar](20) NULL,
+	[HBA1C] [varchar](20) NULL,
+	[BCL] [varchar](20) NULL,
+	[BUA] [varchar](20) NULL,
+	[BKA] [varchar](20) NULL,
+	[BNA] [varchar](20) NULL,
+	[BCO2CP] [varchar](20) NULL,
+	[BGA] [varchar](20) NULL,
+	[BP] [varchar](20) NULL,
+	[SerumTotalProtein] [varchar](20) NULL,
+	[SerumAlbumin] [varchar](20) NULL,
+	[FastingInsulin] [varchar](20) NULL,
+	[FastingCPeptide] [varchar](20) NULL,
+	[PostprandialInsulin] [varchar](20) NULL,
+	[PostprandialCPeptide] [varchar](20) NULL,
+	[ICA] [varchar](20) NULL,
+	[GDA65] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_LabExamInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_LabExamInfo] PRIMARY KEY CLUSTERED 
+(
+	[LabExamInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_MedicineInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_MedicineInfo](
+	[MedicineInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[TableName] [varchar](50) NOT NULL,
+	[Types] [varchar](50) NULL,
+	[Drugtype] [varchar](50) NULL,
+	[DrugNames] [varchar](50) NULL,
+	[DrugBeginTime] [datetime] NULL,
+	[DrugEndTime] [datetime] NULL,
+	[DrugAmount] [varchar](20) NULL,
+	[DrugUnits] [varchar](20) NULL,
+	[DrugByRoute] [varchar](20) NULL,
+	[DrugFrequency] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_MedicineInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_MedicineInfo] PRIMARY KEY CLUSTERED 
+(
+	[MedicineInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_NephropathyInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_NephropathyInfo](
+	[NephropathyInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[HasNephropathy] [varchar](20) NULL,
+	[HasRenalAbnormal] [varchar](20) NULL,
+	[RenalAbnormalDetectedDateTime] [datetime] NULL,
+	[MAXCreatinine] [varchar](20) NULL,
+	[MAXBloodUrea] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_NephropathyInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_NephropathyInfo] PRIMARY KEY CLUSTERED 
+(
+	[NephropathyInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_OtherDiseaseHistoryInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_OtherDiseaseHistoryInfo](
+	[OtherDiseaseHistoryInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[HasCholecystitis] [varchar](20) NULL,
+	[CholecystitisDetectedDateTime] [datetime] NULL,
+	[HasGallbladderSurgery] [varchar](20) NULL,
+	[GallbladderSurgeryDateTime] [datetime] NULL,
+	[HasCancer] [varchar](20) NULL,
+	[CancerPart] [varchar](20) NULL,
+	[CancerDetectedDateTime] [datetime] NULL,
+	[CancerPrognosis] [varchar](20) NULL,
+	[OtherDisease] [varchar](50) NULL,
+	[OtherDiseaseDetectedDateTime] [datetime] NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_OtherDiseaseHistoryInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_OtherDiseaseHistoryInfo] PRIMARY KEY CLUSTERED 
+(
+	[OtherDiseaseHistoryInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_OtherExamAbnormal]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_OtherExamAbnormal](
+	[OtherExamAbnormalSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[TableName] [varchar](50) NOT NULL,
+	[Types] [varchar](50) NOT NULL,
+	[ExamItemName] [varchar](50) NULL,
+	[ExamResult] [varchar](50) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_OtherExamAbnormal_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_OtherExamAbnormal] PRIMARY KEY CLUSTERED 
+(
+	[OtherExamAbnormalSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_OtherExamInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_OtherExamInfo](
+	[OtherExamInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NULL,
+	[HasECGAbnormal] [varchar](50) NULL,
+	[ECGAbnormalType] [varchar](50) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_OtherExamInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_OtherExamInfo] PRIMARY KEY CLUSTERED 
+(
+	[OtherExamInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_PersonalHistoryInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_PersonalHistoryInfo](
+	[PersonalHistoryInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[MaxWeight] [varchar](20) NULL,
+	[MinWeight] [varchar](20) NULL,
+	[MaxWeightAge] [varchar](20) NULL,
+	[MaxWeightLastedYears] [varchar](20) NULL,
+	[IsSmokeing] [varchar](20) NULL,
+	[SmokingAgeBegin] [varchar](20) NULL,
+	[SmokingFrequency] [varchar](20) NULL,
+	[RecentSmokingFrequency] [varchar](20) NULL,
+	[SmokingAgeEnd] [varchar](20) NULL,
+	[IsDrinking] [varchar](20) NULL,
+	[DrinkingAgeBegin] [varchar](20) NULL,
+	[DrinkingAgeEnd] [varchar](20) NULL,
+	[HasControlDiet] [varchar](20) NULL,
+	[MainFoodAmount] [varchar](20) NULL,
+	[OilAmount] [varchar](20) NULL,
+	[ProteinAmount] [varchar](20) NULL,
+	[HasBearing] [varchar](20) NULL,
+	[HasGDM] [varchar](20) NULL,
+	[GDMAgeBegin] [varchar](20) NULL,
+	[IsNeonateHeavierThan4Kg] [varchar](20) NULL,
+	[NeonateCount] [varchar](20) NULL,
+	[BearingAge1] [varchar](20) NULL,
+	[NeonateWeight1] [varchar](20) NULL,
+	[BearingAge2] [varchar](20) NULL,
+	[NeonateWeight2] [varchar](20) NULL,
+	[HasExerciseRecent] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_PersonalHistoryInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_PersonalHistoryInfo] PRIMARY KEY CLUSTERED 
+(
+	[PersonalHistoryInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_PhysicalInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_PhysicalInfo](
+	[PhysicalInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[Height] [varchar](10) NULL,
+	[Weigh] [varchar](10) NULL,
+	[WC] [varchar](10) NULL,
+	[HC] [varchar](10) NULL,
+	[HR] [varchar](10) NULL,
+	[HasDyskinesia] [varchar](10) NULL,
+	[DyskinesiaPart] [varchar](10) NULL,
+	[SBP1] [varchar](10) NULL,
+	[DBP1] [varchar](10) NULL,
+	[SBP2] [varchar](10) NULL,
+	[DBP2] [varchar](10) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_PhysicalInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_PhysicalInfo] PRIMARY KEY CLUSTERED 
+(
+	[PhysicalInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_SymptomsInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_SymptomsInfo](
+	[SymptomsInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[TableName] [varchar](50) NOT NULL,
+	[Types] [varchar](50) NOT NULL,
+	[SymptomsName] [varchar](50) NULL,
+	[SymptomsDetectedDateTime] [datetime] NULL,
+	[DiseaseResult] [varchar](50) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_SymptomsInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_SymptomsInfo] PRIMARY KEY CLUSTERED 
+(
+	[SymptomsInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_VascularUltrasound]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_VascularUltrasound](
+	[VascularUltrasoundSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[TableName] [varchar](50) NOT NULL,
+	[Types] [varchar](50) NOT NULL,
+	[VascularAbnormalType] [varchar](50) NULL,
+	[VascularAbnormalPart] [varchar](50) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_VascularUltrasound_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_VascularUltrasound] PRIMARY KEY CLUSTERED 
+(
+	[VascularUltrasoundSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_OperationLog]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_OperationLog](
+	[OperationLogSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[OperationUserID] [varchar](20) NULL,
+	[OperationStep] [int] NULL,
+	[OperationTime] [datetime] NULL CONSTRAINT [DF_CDSS_OperationLog_OperationTime]  DEFAULT (getdate()),
+	[OperationDescription] [varchar](max) NULL,
+	[OperationReasonedLog] [image] NULL,
+	[OperationName] [varchar](50) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_OperationLog_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_OperationLog] PRIMARY KEY CLUSTERED 
+(
+	[OperationLogSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_PatBasicInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_PatBasicInfo](
+	[PatSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[PatID] [varchar](20) NULL,
+	[PatName] [varchar](100) NOT NULL,
+	[PatSex] [char](4) NOT NULL,
+	[PatEducationLevel] [varchar](20) NULL,
+	[PatNational] [varchar](20) NOT NULL,
+	[PatIncomeSource] [varchar](50) NULL,
+	[PatProfessional] [varchar](50) NULL,
+	[PatTreatmentCost] [varchar](50) NULL,
+	[PatIncome] [varchar](50) NULL,
+	[PatZipcode] [nvarchar](6) NULL,
+	[PatBirthday] [varchar](100) NOT NULL,
+	[PatPhone] [varchar](30) NULL,
+	[PatBirthProvince] [varchar](50) NULL,
+	[PatBirthCity] [varchar](50) NULL,
+	[PatAddress] [varchar](50) NULL,
+	[PatChildCount] [int] NULL,
+	[PatSiblingsCount] [int] NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_PatBasicInfo_SyncFlag]  DEFAULT ((0)),
+	[PatRecordStatus] [int] NULL CONSTRAINT [DF_CDSS_PatBasicInfo_PatRecordStatus]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_PatBasicInfo] PRIMARY KEY CLUSTERED 
+(
+	[PatSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_DietSuggestion]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_DietSuggestion](
+	[DietSuggestionSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[DietType] [varchar](50) NULL,
+	[TotalEnergy] [varchar](50) NULL,
+	[TotalWater] [varchar](50) NULL,
+	[CarboPercent] [varchar](50) NULL,
+	[CarboCount] [varchar](50) NULL,
+	[CerealCount] [varchar](50) NULL,
+	[CerealDetail] [varchar](max) NULL,
+	[Fruitcount] [varchar](50) NULL,
+	[FruitDetail] [varchar](max) NULL,
+	[GreenstuffCount] [varchar](50) NULL,
+	[GreenstuffDetail] [varchar](max) NULL,
+	[ProteinPercent] [varchar](50) NULL,
+	[ProteinCount] [varchar](50) NULL,
+	[DairyCount] [varchar](50) NULL,
+	[DairyDetail] [varchar](max) NULL,
+	[EggCount] [varchar](50) NULL,
+	[EggDetail] [varchar](max) NULL,
+	[MeatCount] [varchar](50) NULL,
+	[MeatDetail] [varchar](max) NULL,
+	[BeanProductCount] [varchar](50) NULL,
+	[BeanProductDetail] [varchar](max) NULL,
+	[FatPercent] [varchar](50) NULL,
+	[FatCount] [varchar](50) NULL,
+	[VegetableOilCount] [varchar](50) NULL,
+	[VegetableOilDetail] [varchar](max) NULL,
+	[OtherFatFoodCount] [varchar](50) NULL,
+	[OtherFatFoodDetail] [varchar](max) NULL,
+	[LimitedFood] [varchar](max) NULL,
+	[AvoidFood] [varchar](max) NULL,
+	[DataNeeded] [varchar](max) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_DietSuggestion_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_DietSuggestion] PRIMARY KEY CLUSTERED 
+(
+	[DietSuggestionSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_ExerciseSuggestion]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_ExerciseSuggestion](
+	[ExerciseSuggestionSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[ExerciseTarget] [varchar](max) NULL,
+	[EnergyCost] [varchar](max) NULL,
+	[NoIntensityExercise] [nvarchar](50) NULL,
+	[NoIntensityExerciseItems] [varchar](max) NULL,
+	[LowIntensityExercise] [varchar](50) NULL,
+	[LowIntensityExerciseItems] [varchar](max) NULL,
+	[MiddleIntensityExercise] [varchar](50) NULL,
+	[MiddleIntensityExerciseItems] [varchar](max) NULL,
+	[HighIntensityExercise] [varchar](50) NULL,
+	[HighIntensityExerciseItems] [varchar](max) NULL,
+	[DataNeeded] [varchar](max) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_ExerciseSuggestion_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_ExerciseSuggestion] PRIMARY KEY CLUSTERED 
+(
+	[ExerciseSuggestionSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_ReasonDiagnosedResult]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_ReasonDiagnosedResult](
+	[DiagnosedResultSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[Name] [varchar](20) NULL,
+	[Result] [varchar](max) NULL,
+	[TreatmentTarget] [varchar](max) NULL,
+	[TreatmentSuggestion] [varchar](max) NULL,
+	[SelfCheck] [varchar](max) NULL,
+	[DataNeeded] [varchar](max) NULL,
+	[DiagnosisSteps] [varchar](max) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_ReasonDiagnosedResult_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_ReasonDiagnosedResult] PRIMARY KEY CLUSTERED 
+(
+	[DiagnosedResultSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_UpdateInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_UpdateInfo](
+	[AppName] [varchar](50) NOT NULL,
+	[OldVer] [varchar](50) NULL,
+	[NewVer] [varchar](50) NULL,
+	[PackagePath] [varchar](max) NULL,
+	[loadTime] [datetime] NULL CONSTRAINT [DF_CDSS_UpdateInfo_loadTime]  DEFAULT (getdate()),
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_UpdateInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_UpdateInfo] PRIMARY KEY CLUSTERED 
+(
+	[AppName] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_RecordInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_RecordInfo](
+	[RecordSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordDateTime] [datetime] NULL CONSTRAINT [DF_CDSS_RecordInfo_RecordDateTime]  DEFAULT (getdate()),
+	[UserID] [varchar](20) NULL,
+	[InferenceState] [varchar](50) NULL,
+	[KnowledgeVersion] [varchar](50) NULL,
+	[IEVersion] [varchar](50) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_RecordInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_RecordInfo] PRIMARY KEY CLUSTERED 
+(
+	[RecordSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_UserInfo]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_UserInfo](
+	[UserID] [varchar](80) NOT NULL,
+	[UserPwd] [varchar](32) NOT NULL,
+	[UserName] [varchar](80) NULL,
+	[Department] [varchar](20) NULL,
+	[Title] [varchar](20) NULL,
+	[Phone] [varchar](20) NULL,
+	[Company] [varchar](100) NULL,
+	[MailAddress] [varchar](50) NULL,
+	[LastLoginTime] [datetime] NULL,
+	[LoginFrequency] [int] NULL CONSTRAINT [DF_CDSS_UserInfo_LoginFrequency_1]  DEFAULT ((0)),
+	[LoginConnDBTime] [datetime] NULL,
+	[SaveCaseTime] [datetime] NULL,
+	[UserPower] [int] NOT NULL CONSTRAINT [DF_CDSS_UserInfo_UserPower]  DEFAULT ((0)),
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_UserInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_UserInfo] PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_RecordHistory]    脚本日期: 04/21/2010 19:20:20 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+CREATE TABLE [dbo].[CDSS_RecordHistory](
+	[RecordSEQ] [int] NOT NULL,
+	[PatSEQ] [int] NOT NULL,
+	[PatVisitDateTime] [datetime] NOT NULL,
+	[HistoryRecordStatus] [int] NOT NULL CONSTRAINT [DF_CDSS_RecordHistory_HistoryRecordStatus]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_RecordHistory] PRIMARY KEY CLUSTERED 
+(
+	[RecordSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+/****** 对象:  Table [dbo].[CDSS_AGMInfo]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_AGMInfo](
+	[AGMInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[HasAGMAbnormal] [varchar](20) NULL,
+	[AbnormalDetectedDateTime] [datetime] NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_AGMInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_AGMInfo] PRIMARY KEY CLUSTERED 
+(
+	[AGMInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_DiagnosedResult]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_DiagnosedResult](
+	[DiagnosedResultSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[Name] [varchar](20) NULL,
+	[Result] [varchar](max) NULL,
+	[TreatmentTarget] [varchar](max) NULL,
+	[TreatmentSuggestion] [varchar](max) NULL,
+	[SelfCheck] [varchar](max) NULL,
+	[DataNeeded] [varchar](max) NULL,
+	[DiagnosisSteps] [varchar](max) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_DiagnosedResult_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_DiagnosedResult] PRIMARY KEY CLUSTERED 
+(
+	[DiagnosedResultSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_DrinkingInfo]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_DrinkingInfo](
+	[DrinkingInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[TableName] [varchar](50) NOT NULL,
+	[Types] [varchar](50) NULL,
+	[DrinkingType] [varchar](20) NULL,
+	[TimesOneWeek] [varchar](20) NULL,
+	[AmountOneTime] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_DrinkingInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_DrinkingInfo] PRIMARY KEY CLUSTERED 
+(
+	[DrinkingInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** 对象:  Table [dbo].[CDSS_DyslipidemiaInfo]    脚本日期: 04/21/2010 19:20:19 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[CDSS_DyslipidemiaInfo](
+	[DyslipidemiaInfoSEQ] [int] IDENTITY(1,1) NOT NULL,
+	[RecordSEQ] [int] NOT NULL,
+	[HasDyslipidemia] [varchar](20) NULL,
+	[SyncFlag] [int] NOT NULL CONSTRAINT [DF_CDSS_DyslipidemiaInfo_SyncFlag]  DEFAULT ((0)),
+ CONSTRAINT [PK_CDSS_DyslipidemiaInfo] PRIMARY KEY CLUSTERED 
+(
+	[DyslipidemiaInfoSEQ] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+
+/****** 插入默认用户 ******/
+INSERT INTO [dbo].[CDSS_UserInfo]
+           ([UserID]
+           ,[UserPwd]
+           ,[UserName]
+           ,[Department]
+           ,[Title]
+           ,[Phone]
+           ,[UserPower])
+     VALUES
+           ('admin'
+           ,'E10ADC3949BA59ABBE56E057F20F883E'
+           ,N'管理员'
+           ,''
+           ,''
+           ,''
+           ,1)
+           
+/****** 初始化登录 ******/
+USE [NGCDSS]
+
+IF  not EXISTS (SELECT * FROM sys.server_principals WHERE name = N'NGCDSS')
+CREATE LOGIN [NGCDSS] WITH PASSWORD=N'NGCDSS', DEFAULT_DATABASE=[NGCDSS], DEFAULT_LANGUAGE=[简体中文], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+
+CREATE USER [NGCDSS] FOR LOGIN [NGCDSS] WITH DEFAULT_SCHEMA=[dbo]
