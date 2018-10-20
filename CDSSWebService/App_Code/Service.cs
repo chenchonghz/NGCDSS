@@ -243,6 +243,7 @@ public class Service : System.Web.Services.WebService
         }
         return restResult;
     }
+
     /// <summary>
     /// 获取病人各项信息
     /// </summary>
@@ -287,17 +288,20 @@ public class Service : System.Web.Services.WebService
     /// </summary>
     [WebMethod]
     [XmlInclude(typeof(QueryResultList))]
-    public RestResult QueryPatDataByCondition()
+    public RestResult QueryPatDataByCondition( string value)
     {
         RestResult restResult = new RestResult();
         try
         {
-            QueryCondition qc = new QueryCondition();
-            qc.UserID = "admin";
-            qc.PatID = "";
-            qc.strName = "";
-            qc.strResult = "";
-            qc.strSex = "";
+            QueryConditionReceive queryConditionReceive = new QueryConditionReceive(value);
+            CDSSDBAccess.QueryCondition qc = new CDSSDBAccess.QueryCondition();
+            qc.UserID = queryConditionReceive.UserID;
+            qc.PatID = queryConditionReceive.PatID;
+            qc.strName = queryConditionReceive.strName;
+            qc.strResult = queryConditionReceive.strResult;
+            qc.strSex = queryConditionReceive.strSex;
+            qc.dtVisitFrom = queryConditionReceive.dtVisitFrom;
+            qc.dtVisitTo = queryConditionReceive.dtVisitTo;
             DataTable tableResult = DBAccess.Query(qc);
             // restResult.data = tableResult;
             if (tableResult.Rows.Count < 1)
@@ -313,19 +317,14 @@ public class Service : System.Web.Services.WebService
                 DESClass DESClass = new DESClass();
                 for (int i = 0; i < tableResult.Rows.Count; i++)
                 {
-                    if (!patbasic.ContainsKey(tableResult.Rows[i]["PatSEQ"].ToString()))
-                        patbasic.Add(tableResult.Rows[i]["PatSEQ"].ToString(), tableResult.Rows[i]);
-
-                }
-                foreach (KeyValuePair<string, DataRow> dr in patbasic)
-                {
+                    DataRow dr = tableResult.Rows[i];
                     QueryPatient patient = new QueryPatient();
-                    patient.RecordSEQ = dr.Value["RecordSEQ"].ToString();
-                    patient.PatVisitDateTime = ((DateTime)dr.Value["PatVisitDateTime"]).ToString("yyyy-MM-dd");
-                    patient.PatID = dr.Value["PatID"].ToString();
-                    patient.PatName = DESClass.DESDecrypt(dr.Value["PatName"].ToString().Trim()).TrimEnd('\0');
-                    patient.PatSex = dr.Value["PatSex"].ToString().Trim();
-                    patient.PatSEQ = dr.Value["PatSEQ"].ToString();
+                    patient.RecordSEQ = dr["RecordSEQ"].ToString();
+                    patient.PatVisitDateTime = ((DateTime)dr["PatVisitDateTime"]).ToString("yyyy-MM-dd");
+                    patient.PatID = dr["PatID"].ToString();
+                    patient.PatName = DESClass.DESDecrypt(dr["PatName"].ToString().Trim()).TrimEnd('\0');
+                    patient.PatSex = dr["PatSex"].ToString().Trim();
+                    patient.PatSEQ = dr["PatSEQ"].ToString();
                     patientList.queryResultList.Add(patient);
                 }
                 restResult.data = patientList;
@@ -344,11 +343,12 @@ public class Service : System.Web.Services.WebService
     /// </summary>
     [WebMethod]
     [XmlInclude(typeof(QueryResultList))]
-    public RestResult QueryDiseaseHistoryByRecordSeq(string recordSeq)
+    public RestResult QueryDiseaseHistoryByRecordSeq(string recordSeqs)
     {
         RestResult restResult = new RestResult();
         QueryResultList historyList = new QueryResultList();
-        // foreach(string recordSeq in recordSeqs) {
+        string[] strArray = recordSeqs.Split(',');
+        foreach (string recordSeq in strArray) {
             QueryDisHisRecord histroy = new QueryDisHisRecord();
             histroy.metabolicsSyndrome = DBAccess.GetNeededResult(Convert.ToInt32(recordSeq), "代谢综合征");
             histroy.dangerDegree = DBAccess.GetNeededResult(Convert.ToInt32(recordSeq), "危险度");
@@ -360,7 +360,7 @@ public class Service : System.Web.Services.WebService
                 histroy.color = "red";
             }
             historyList.queryResultList.Add(histroy);
-        //}
+        }
         restResult.data = historyList;
         return restResult;
     }
@@ -370,21 +370,10 @@ public class Service : System.Web.Services.WebService
     /// </summary>
     [WebMethod]
     [XmlInclude(typeof(CDSSDiagnosedResult))]
+    //[XmlInclude(typeof(CDSSDietSuggestion))]
     public RestResult GetDiagnosedResultByReasoning()
     {
         RestResult restResult = new RestResult();
-        //GlobalData.PatBasicInfo = globalData.PatBasicInfo;
-        //GlobalData.AGMInfo = globalData.AGMInfo;
-        //GlobalData.HypertensionInfo = globalData.HypertensionInfo;
-        //GlobalData.DyslipidemiaInfo = globalData.DyslipidemiaInfo;
-        //GlobalData.HyperuricemiaInfo = globalData.HyperuricemiaInfo;
-        //GlobalData.NephropathyInfo = globalData.NephropathyInfo;
-        //GlobalData.OtherDiseaseHistoryInfo = globalData.OtherDiseaseHistoryInfo;
-        //GlobalData.PersonalHistoryInfo = globalData.PersonalHistoryInfo;
-        //GlobalData.FamilyDiseaseHistoryInfo = globalData.FamilyDiseaseHistoryInfo;
-        //GlobalData.PhysicalInfo = globalData.PhysicalInfo;
-        //GlobalData.LabExamInfo = globalData.LabExamInfo;
-        //GlobalData.DiagnosedResult.Clear();
         List<FunctionTypeDef.EventModels> lstEventModels = new List<FunctionTypeDef.EventModels>();
         CDSSFunction.Interface.ObtainInfernceEvents(ref lstEventModels);
         CDSSFunction.Interface.SetInferenceNeededEvents(lstEventModels);
@@ -396,6 +385,43 @@ public class Service : System.Web.Services.WebService
         restResult.data = GlobalData.DiagnosedResult;
         return restResult;
     }
+
+    /// <summary>
+    /// 获取饮食建议
+    /// </summary>
+    [WebMethod]
+    [XmlInclude(typeof(CDSSDietSuggestion))]
+    public RestResult GetDietSuggestion()
+    {
+        RestResult restResult = new RestResult();
+        if (DBAccess.SaveDataToDB())
+        {
+            restResult.status = "SUCCESS";
+            restResult.message = "保存推理结果成功！";
+        }
+        else
+        {
+            string ErrorInfo = "保存病案记录时出现错误。\n详细信息：";
+            ErrorInfo += DBAccess.LastErrorInfo;
+            restResult.message = ErrorInfo;
+            restResult.status = "ERROR";
+        }
+        restResult.data = GlobalData.DietSuggestion;
+        return restResult;
+    }
+
+    /// <summary>
+    /// 获取运动建议
+    /// </summary>
+    [WebMethod]
+    [XmlInclude(typeof(CDSSExerciseSuggestion))]
+    public RestResult GetExerciseSuggestion()
+    {
+        RestResult restResult = new RestResult();
+        restResult.data = GlobalData.ExerciseSuggestion;
+        return restResult;
+    }
+
 
     [WebMethod]
     public String testAPIFunction (String value)

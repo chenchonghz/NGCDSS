@@ -171,7 +171,7 @@ namespace CDSS
             if (this.dtpBirthTo.Enabled)
                 qc.dtBirthDayTo = this.dtpBirthTo.Value.Date.AddDays(1);
             if (this.dtpVisitFrom.Enabled)
-                qc.dtVisitFrom = this.dtpVisitFrom.Value.Date;
+                qc.dtVisitFrom   = this.dtpVisitFrom.Value.Date;
             if (this.dtpVisitTo.Enabled)
                 qc.dtVisitTo = this.dtpVisitTo.Value.Date.AddDays(1);
            
@@ -286,7 +286,7 @@ namespace CDSS
                     int recordStatus = DBAccess.GetRecordStatus(Convert.ToInt32(dr.ItemArray[0]));
                     string[] cols = new string[6];
 
-                    cols[0] = ((DateTime)dr["PatVisitDateTime"]).Date.ToShortTimeString();
+                    cols[0] = ((DateTime)dr["PatVisitDateTime"]).Date.ToShortDateString();
                     cols[1] = DBAccess.GetNeededResult(Convert.ToInt32(dr.ItemArray[0]), "代谢综合征");
                     cols[2] = DBAccess.GetNeededResult(Convert.ToInt32(dr.ItemArray[0]), "危险度");
                     cols[3] = DBAccess.GetNeededResult(Convert.ToInt32(dr.ItemArray[0]), "危险度积分");

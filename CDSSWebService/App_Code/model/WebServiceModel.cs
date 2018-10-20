@@ -4,6 +4,8 @@ using System.Web;
 using CDSSSystemData;
 using System.Xml.Serialization;
 using Newtonsoft.Json.Linq;
+using CDSSDBAccess;
+
 /// <summary>
 /// Summary description for RestResult
 /// </summary>
@@ -174,6 +176,9 @@ namespace WebSerivceModel
         String unit;
     }
 
+    /// <summary>
+    /// 接收登录用户名和密码
+    /// </summary>
     [Serializable]
     public class LoginReceive
     {
@@ -197,6 +202,51 @@ namespace WebSerivceModel
         public String password;
     }
 
+    /// <summary>
+    /// 接收查询条件
+    /// </summary>
+    [Serializable]
+    public class QueryConditionReceive
+    {
+        public QueryConditionReceive(String json)
+        {
+            try
+            {
+                JObject jObject = JObject.Parse(@json);
+                this.UserID = "admin";
+                this.strName = (String)jObject["strName"];
+                this.PatID = (String)jObject["PatID"];
+                this.strResult = "";
+                this.strSex = (String)jObject["strSex"];
+                this.dtVisitFrom = (DateTime)jObject["dtVisitFrom"];
+                this.dtVisitTo = (DateTime)jObject["dtVisitTo"];
+            }
+            catch (Exception e)
+            {
+                e.ToString();
+            }
+        }
+        //CDSSDBAccess.QueryCondition qc = new CDSSDBAccess.QueryCondition();
+        public string strName;
+        public string strSex;
+        public DateTime? dtBirthDayFrom;
+        public DateTime? dtBirthDayTo;
+        public DateTime? dtVisitFrom;
+        public DateTime? dtVisitTo;
+        public string strResult;
+        public string strRiskScoreFrom;
+        public string strRiskScoreTo;
+        public bool bHaveDM;
+        public bool bHaveLipidsDisorder;
+        public bool bHaveHypertension;
+        public bool bHaveHyperuricuria;
+        public string UserID;
+        public string PatID;
+    }
+
+    /// <summary>
+    /// 基本信息录入
+    /// </summary>
     [Serializable]
     public class ReceivePatData
     {
@@ -236,6 +286,9 @@ namespace WebSerivceModel
         }
     }
 
+    /// <summary>
+    /// 快速信息录入
+    /// </summary>
     [Serializable]
     public class ReceiveQuickInfo
     {
