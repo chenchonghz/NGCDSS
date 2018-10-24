@@ -249,10 +249,10 @@ public class Service : System.Web.Services.WebService
     /// </summary>
     [WebMethod]
     [XmlInclude(typeof(GlobalDataInfo))]
-    public RestResult GetGlobalDataByRecordSEQ(int recordSeq)
+    public RestResult GetDataFromDBByRecordSEQ(int patRecSeq)
     {
         RestResult restResult = new RestResult();
-        GlobalData.RecordInfo.RecordSeq = recordSeq;
+        GlobalData.RecordInfo.RecordSeq = patRecSeq;
         if (DBAccess.GetDataFromDB())
         {
             GlobalDataInfo globalData = new GlobalDataInfo();
@@ -300,6 +300,8 @@ public class Service : System.Web.Services.WebService
             qc.strName = queryConditionReceive.strName;
             qc.strResult = queryConditionReceive.strResult;
             qc.strSex = queryConditionReceive.strSex;
+            qc.dtBirthDayFrom = queryConditionReceive.dtBirthDayFrom;
+            qc.dtBirthDayTo = queryConditionReceive.dtBirthDayTo;
             qc.dtVisitFrom = queryConditionReceive.dtVisitFrom;
             qc.dtVisitTo = queryConditionReceive.dtVisitTo;
             DataTable tableResult = DBAccess.Query(qc);
@@ -354,6 +356,7 @@ public class Service : System.Web.Services.WebService
             histroy.dangerDegree = DBAccess.GetNeededResult(Convert.ToInt32(recordSeq), "危险度");
             histroy.dangerScore = DBAccess.GetNeededResult(Convert.ToInt32(recordSeq), "危险度积分");
             histroy.lostInfo = DBAccess.GetNeededData(Convert.ToInt32(recordSeq));
+            histroy.recordSEQ = recordSeq;
             int recordStatus = DBAccess.GetRecordStatus(Convert.ToInt32(recordSeq));
             if (!string.IsNullOrEmpty(histroy.lostInfo) && recordStatus == 0)
             {

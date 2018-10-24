@@ -41,7 +41,7 @@ namespace WebSerivceModel
 
     public class QueryDisHisRecord:QueryResult
     {
-        public string RecordSEQ;
+        public string recordSEQ;
         public string color;
         public string metabolicsSyndrome;
         public string dangerDegree;
@@ -213,13 +213,19 @@ namespace WebSerivceModel
             try
             {
                 JObject jObject = JObject.Parse(@json);
-                this.UserID = "admin";
+                this.UserID = GlobalData.UserInfo.UserID;
                 this.strName = (String)jObject["strName"];
                 this.PatID = (String)jObject["PatID"];
                 this.strResult = "";
                 this.strSex = (String)jObject["strSex"];
-                this.dtVisitFrom = (DateTime)jObject["dtVisitFrom"];
-                this.dtVisitTo = (DateTime)jObject["dtVisitTo"];
+                if ((string)jObject["dtBirthDayFrom"] != "")
+                    this.dtBirthDayFrom = (DateTime)jObject["dtBirthDayFrom"];
+                if ((string)jObject["dtBirthDayTo"] != "")
+                    this.dtBirthDayTo = (DateTime)jObject["dtBirthDayTo"];
+                if ((string)jObject["dtVisitFrom"] != "")
+                    this.dtVisitFrom = (DateTime)jObject["dtVisitFrom"];
+                if ((string)jObject["dtVisitTo"] != "")
+                    this.dtVisitTo = (DateTime)jObject["dtVisitTo"];
             }
             catch (Exception e)
             {
