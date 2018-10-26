@@ -432,6 +432,14 @@ public class Service : System.Web.Services.WebService
         TestModel model = new TestModel(value);
         return "success";
     }
+    /// <summary>
+    /// 设置新入病人的PatSEQ为*
+    /// </summary>
+    [WebMethod]
+    public void SetPatSEQToNew()
+    {
+        GlobalData.PatBasicInfo.PatSEQ = "*";
+    }
 
     /// <summary>
     /// 保存病人基本信息

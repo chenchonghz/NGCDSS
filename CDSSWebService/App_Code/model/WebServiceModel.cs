@@ -303,7 +303,7 @@ namespace WebSerivceModel
             try
             {
                 JObject jObject = JObject.Parse(@json);
-                GlobalData.PatBasicInfo.PatSEQ = "*";
+                //GlobalData.PatBasicInfo.PatSEQ = "*";
                 GlobalData.PatBasicInfo.PatName = (string)jObject["PatName"];
                 GlobalData.PatBasicInfo.PatID = (string)jObject["PatID"];
                 GlobalData.PatBasicInfo.PatSex = (string)jObject["PatSex"];
